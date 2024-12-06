@@ -1,0 +1,31 @@
+ItemID,ItemName,Quantity,Price
+1,Laptop,10,1200.00
+2,Smartphone,20,800.00
+3,Monitor,15,300.00
+4,Keyboard,50,20.00
+5,Mouse,60,15.00
+6,Printer,12,150.00
+7,Router,25,75.00
+8,External Hard Drive,18,90.00
+9,Tablet,30,250.00
+10,Headphones,40,50.00
+11,Webcam,35,45.00
+12,Smartwatch,22,200.00
+13,Graphic Tablet,8,350.00
+14,Speaker,28,70.00
+15,Power Bank,55,25.00
+16,USB Flash Drive,100,10.00
+17,Desk Chair,10,120.00
+18,Office Desk,7,300.00
+19,Gaming Chair,5,250.00
+20,Projector,6,400.00
+21,Camera,12,550.00
+22,Tripod,20,60.00
+23,Whiteboard,15,75.00
+24,Smart TV,8,700.00
+25,Air Conditioner,5,1000.00
+26,Microwave,10,180.00
+27,Washing Machine,3,800.00
+28,Refrigerator,4,1500.00
+29,Dishwasher,3,900.00
+30,Electric Kettle,50,35.00

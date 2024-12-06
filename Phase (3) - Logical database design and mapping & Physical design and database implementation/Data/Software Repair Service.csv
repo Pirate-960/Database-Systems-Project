@@ -1,0 +1,31 @@
+SofwareRepairServiceID,Name,StartDate,EndDate,Price,Status,City,State,Country,ServiceType,DeviceName,DeviceType,DeviceModel,RepairType,SoftwareType,SoftwareVersion
+8001,Antivirus Repair,2023-01-10,2023-01-15,100.00,Completed,Istanbul,Marmara,Turkey,Repair,Norton Antivirus,Software,Norton Antivirus,Software,2023
+8002,Operating System Reinstallation,2023-02-01,2023-02-05,120.00,Completed,Ankara,Ankara,Turkey,Repair,Windows 10,Laptop,HP Pavilion,Software,Windows 10 Pro
+8003,Antivirus Update,2023-03-05,2023-03-10,80.00,Completed,Izmir,Izmir,Turkey,Repair,McAfee Antivirus,Software,McAfee Antivirus,Software,2022
+8004,Malware Removal,2023-04-01,2023-04-10,150.00,Completed,Antalya,Antalya,Turkey,Repair,AVG Antivirus,Software,AVG Antivirus,Software,2023
+8005,Software Configuration,2023-05-01,2023-05-05,90.00,Completed,Bursa,Bursa,Turkey,Repair,Adobe Photoshop,Laptop,Dell Inspiron,Software,Photoshop 2022
+8006,Application Update,2023-06-10,2023-06-15,50.00,Completed,Konya,Konya,Turkey,Repair,Slack,Software,Slack,Software,2023.04
+8007,Antivirus Removal,2023-07-01,2023-07-05,60.00,Completed,Istanbul,Marmara,Turkey,Repair,Bitdefender Antivirus,Software,Bitdefender Antivirus,Software,2022
+8008,Driver Update,2023-08-15,2023-08-20,70.00,Completed,Izmir,Izmir,Turkey,Repair,NVIDIA,Graphics Card,GTX 1650,Software,NVIDIA Driver 472.12
+8009,App Reinstallation,2023-09-01,2023-09-05,110.00,Completed,Ankara,Ankara,Turkey,Repair,Zoom,Laptop,Lenovo ThinkPad,Software,Zoom 5.11
+8010,Software Upgrade,2023-10-05,2023-10-10,140.00,Completed,Antalya,Antalya,Turkey,Repair,Microsoft Office,Software,Microsoft Office 2021,Software,Office 2021
+8011,Software Troubleshooting,2023-11-01,2023-11-07,100.00,Completed,Bursa,Bursa,Turkey,Repair,AutoCAD,Laptop,Acer Aspire,Software,AutoCAD 2023
+8012,Software Update,2023-12-01,2023-12-05,85.00,Completed,Konya,Konya,Turkey,Repair,Windows Defender,Software,Windows Defender,Software,2023
+8013,Game Patch Update,2023-01-15,2023-01-20,60.00,Completed,Istanbul,Marmara,Turkey,Repair,League of Legends,Software,League of Legends,Software,2023.01
+8014,Operating System Repair,2023-02-10,2023-02-15,120.00,Completed,Izmir,Izmir,Turkey,Repair,macOS,MacBook,Apple MacBook Air,Software,macOS 13
+8015,Data Recovery Software,2023-03-20,2023-03-25,180.00,Completed,Antalya,Antalya,Turkey,Repair,Recuva,Laptop,Asus ROG,Software,Recuva 2023
+8016,Email Client Setup,2023-04-10,2023-04-15,80.00,Completed,Bursa,Bursa,Turkey,Repair,Outlook,Laptop,Lenovo Yoga,Software,Outlook 2023
+8017,Server Software Configuration,2023-05-01,2023-05-07,220.00,Completed,Konya,Konya,Turkey,Repair,Linux Server,Server,HP ProLiant,Software,Ubuntu 20.04
+8018,Database Repair,2023-06-05,2023-06-10,200.00,Completed,Istanbul,Marmara,Turkey,Repair,SQL Server,Software,Microsoft SQL Server,Software,SQL Server 2022
+8019,Software Compatibility Fix,2023-07-10,2023-07-15,130.00,Completed,Izmir,Izmir,Turkey,Repair,Python,Laptop,Dell XPS,Software,Python 3.10
+8020,Desktop Software Installation,2023-08-01,2023-08-05,90.00,Completed,Ankara,Ankara,Turkey,Repair,Google Chrome,Laptop,HP EliteBook,Software,Chrome 94.0
+8021,Web Browser Update,2023-09-01,2023-09-05,70.00,Completed,Antalya,Antalya,Turkey,Repair,Firefox,Laptop,Apple MacBook,Software,Firefox 93
+8022,Security Software Repair,2023-10-01,2023-10-07,160.00,Completed,Bursa,Bursa,Turkey,Repair,Bitdefender,Software,Bitdefender Total Security,Software,2023
+8023,Software Licensing Issue,2023-11-01,2023-11-10,50.00,Completed,Konya,Konya,Turkey,Repair,Microsoft Office,Software,Microsoft Office 365,Software,365.23
+8024,Anti-spyware Repair,2023-12-01,2023-12-10,80.00,Completed,Istanbul,Marmara,Turkey,Repair,Spybot Search & Destroy,Software,Spybot 2023,Software,Spybot 2023
+8025,Photo Editing Software Repair,2023-01-10,2023-01-15,100.00,Completed,Izmir,Izmir,Turkey,Repair,CorelDRAW,Software,CorelDRAW 2023,Software,CorelDRAW 2023
+8026,Document Management Software Repair,2023-02-01,2023-02-05,95.00,Completed,Antalya,Antalya,Turkey,Repair,Evernote,Software,Evernote 10.2,Software,Evernote 10.2
+8027,Video Editing Software Repair,2023-03-15,2023-03-20,150.00,Completed,Bursa,Bursa,Turkey,Repair,Adobe Premiere Pro,Software,Adobe Premiere Pro 2023,Software,Premiere Pro 2023
+8028,Virtual Machine Repair,2023-04-10,2023-04-15,180.00,Completed,Konya,Konya,Turkey,Repair,VMware Workstation,Software,VMware Workstation 16,Software,VMware Workstation 16
+8029,Network Management Software Repair,2023-05-01,2023-05-07,210.00,Completed,Istanbul,Marmara,Turkey,Repair,Wireshark,Software,Wireshark 4.0,Software,Wireshark 4.0
+8030,Software Configuration Repair,2023-06-05,2023-06-10,130.00,Completed,Izmir,Izmir,Turkey,Repair,Spotify,Software,Spotify 2023.08,Software,Spotify 2023.08
