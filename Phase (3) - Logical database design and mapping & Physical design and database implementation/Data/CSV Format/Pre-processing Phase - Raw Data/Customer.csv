@@ -1,0 +1,51 @@
+CustomerID,CustomerName,Email,Telephone,Street,City,State,Country
+1,Ahmet Yılmaz,ahmet.yilmaz@gmail.com,+90 532 123 4567,Atatürk Bulvarı No:45 D:3,Çankaya,Ankara,Türkiye
+2,Ayşe Kaya,ayse.kaya@hotmail.com,+90 532 987 6543,Konak Mahallesi,İnönü Caddesi No:12,İzmir,Türkiye
+3,Fatma Demir,fatma.demir@yahoo.com,+90 531 456 7890,Liman Mahallesi, Lara Caddesi No:8, Antalya,Türkiye
+4,Hüseyin Şahin,huseyin.sahin@outlook.com,+90 534 123 9876,Heykel Meydanı, Osmangazi, Bursa,Türkiye
+5,Murat Çelik,murat.celik@gmail.com,+90 535 654 3210,Bağdat Caddesi No:56, Kadıköy, İstanbul,Türkiye
+6,Zeynep Arslan,zeynep.arslan@icloud.com,+90 530 112 2334,Kalkınma Mahallesi, Farabi Sokak No:7, Trabzon,Türkiye
+7,Burak Özkan,burak.ozkan@gmail.com,+90 536 998 7654,Turgut Özal Bulvarı No:89, Seyhan, Adana,Türkiye
+8,Emine Kara,emine.kara@yahoo.com,+90 532 445 6677,Mevlana Caddesi No:34, Selçuklu, Konya,Türkiye
+9,Sevgi Güneş,sevgi.gunes@gmail.com,+90 531 765 4321,Akdeniz Mahallesi, Atatürk Caddesi No:22, Mersin,Türkiye
+10,Ali Polat,ali.polat@outlook.com,+90 530 567 1234,Kale Mahallesi, Cumhuriyet Caddesi No:3, Samsun,Türkiye
+11,Ece Doğan,ece.dogan@gmail.com,+90 534 765 8910,Şehitkamil Mahallesi, Gazi Caddesi No:18, Gaziantep,Türkiye
+12,Selin Aksoy,selin.aksoy@yahoo.com,+90 535 678 9102,Antakya Mahallesi, Asi Sokak No:5, Hatay,Türkiye
+13,Tolga Eren,tolga.eren@hotmail.com,+90 532 987 0123,Deliktaş Mahallesi, Çamlık Sokak No:19, Denizli,Türkiye
+14,Esra Yıldız,esra.yildiz@gmail.com,+90 531 345 6789,Balıkesir Mahallesi, Yıldırım Sokak No:44, Balıkesir,Türkiye
+15,Volkan Akın,volkan.akin@icloud.com,+90 536 123 4567,Yakutiye Mahallesi, Erzurum Caddesi No:11, Erzurum,Türkiye
+16,Nur Gök,nur.gok@gmail.com,+90 530 876 5432,Tepebaşı Mahallesi,İstiklal Caddesi No:9, Eskişehir,Türkiye
+17,Halil Arslan,halil.arslan@yahoo.com,+90 534 432 1098,Malatya Mahallesi,Şehir Caddesi No:28, Malatya,Türkiye
+18,Gizem Kara,gizem.kara@outlook.com,+90 535 789 0123,Melikgazi Mahallesi,Cumhuriyet Sokak No:12, Kayseri,Türkiye
+19,Cem Özdemir,cem.ozdemir@hotmail.com,+90 532 654 9871,Yenişehir Mahallesi,Çiftlik Sokak No:76, Sivas,Türkiye
+20,Pelin Türkmen,pelin.turkmen@gmail.com,+90 536 345 6789,Kuşadası Mahallesi,Turizm Caddesi No:4, Aydın,Türkiye
+21,Yusuf Bulut,yusuf.bulut@gmail.com,+90 534 765 4321,Barbaros Mahallesi,Liman Sokak No:7, Çanakkale,Türkiye
+22,Melike Kaplan,melike.kaplan@icloud.com,+90 531 876 5432,Manisa Mahallesi,Çınar Sokak No:5, Manisa,Türkiye
+23,Can Sarı,can.sari@hotmail.com,+90 532 987 6543,Şanlıurfa Mahallesi,Halil Sokak No:22, Şanlıurfa,Türkiye
+24,Feride Tanrıverdi,feride.tanriverdi@yahoo.com,+90 530 112 3344,Onikişubat Mahallesi,Kurtuluş Sokak No:8,Kahramanmaraş,Türkiye
+25,Kerem Öztürk,kerem.ozturk@gmail.com,+90 534 223 4455,Van Mahallesi,Hakkari Caddesi No:14,Van,Türkiye
+26,Aliye Yılmaz,aliye.yilmaz@gmail.com,+90 536 899 1122,Çiğli Mahallesi, Duru Sokak No:2, İzmir,Türkiye
+27,Mehmet Yılmaz,mehmet.yilmaz@gmail.com,+90 530 223 3344,Üsküdar, İskender Sokak No:25, İstanbul,Türkiye
+28,Ayhan Çetin,ayhan.cetin@hotmail.com,+90 533 456 7891,Aksaray, Hacıbayram Caddesi No:14, Ankara,Türkiye
+29,Elif Kara,elif.kara@gmail.com,+90 535 342 7765,Muratpaşa, Atatürk Bulvarı No:3, Antalya,Türkiye
+30,İsmail Aydın,ismail.aydin@icloud.com,+90 532 887 4411,Esentepe, Kavaklı Sokak No:22, Kocaeli,Türkiye
+31,Ceren Gür,ceren.gur@yahoo.com,+90 530 234 1122,Muratpaşa, Cumhuriyet Caddesi No:9, Antalya,Türkiye
+32,Hülya Yavuz,hulya.yavuz@gmail.com,+90 534 545 6789,Dikmen, Yavuz Caddesi No:12, Ankara,Türkiye
+33,Ahmet Kılıç,ahmet.kilic@outlook.com,+90 531 344 5567,Bornova, Ünal Sokak No:10, İzmir,Türkiye
+34,Esra Baş,esra.bas@icloud.com,+90 534 876 2211,Çankaya, Tunus Caddesi No:20, Ankara,Türkiye
+35,Fatih Demirtaş,fatih.demirtas@hotmail.com,+90 530 556 7788,Gaziosmanpaşa, Gazi Sokak No:6, İstanbul,Türkiye
+36,Ayşegül Bayraktar,aysegul.bayraktar@gmail.com,+90 533 112 3344,Beylikdüzü, İstanbul Caddesi No:1, İstanbul,Türkiye
+37,Murat Demir,murat.demir@outlook.com,+90 536 234 5566,Adapazarı, Albayrak Sokak No:10, Sakarya,Türkiye
+38,Hüseyin Temiz,huseyin.temiz@gmail.com,+90 532 111 2233,Çorlu, Cevat Paşa Sokak No:12, Tekirdağ,Türkiye
+39,Mehmet Aslan,mehmet.aslan@yahoo.com,+90 534 332 4455,Keçiören, Ayvalı Sokak No:8, Ankara,Türkiye
+40,Selin Demirtaş,selin.demirtas@gmail.com,+90 533 123 7890,İzmit, Kocaeli Caddesi No:15, Kocaeli,Türkiye
+41,Nurhan Çelik,nurhan.celik@outlook.com,+90 531 445 6789,Kocaeli, Kanarya Sokak No:9, Kocaeli,Türkiye
+42,Levent Yıldız,levent.yildiz@icloud.com,+90 535 223 4455,Üsküdar, Vefa Caddesi No:3, İstanbul,Türkiye
+43,İlhan Karataş,ilhan.karatas@gmail.com,+90 534 776 8889,Diyarbakır, Ekin Caddesi No:7, Diyarbakır,Türkiye
+44,Ayşegül Arslan,aysegul.arslan@yahoo.com,+90 532 453 2345,Yeni Mahalle, Fikri Caddesi No:14, Ankara,Türkiye
+45,Emre Demircan,emre.demircan@outlook.com,+90 530 342 5578,Şişli, Ordu Caddesi No:25, İstanbul,Türkiye
+46,Ali Evgin,ali.evgin@gmail.com,+90 533 223 4455,Kadıköy, Bahar Sokak No:9, İstanbul,Türkiye
+47,Serdar Kılıç,serdar.kilic@hotmail.com,+90 535 343 5567,Sincan, Tuzla Caddesi No:7, Ankara,Türkiye
+48,Özlem Şahin,ozlem.sahin@icloud.com,+90 532 123 4455,Karşıyaka, 16 Temmuz Caddesi No:11, İzmir,Türkiye
+49,Selda Yılmaz,selda.yilmaz@outlook.com,+90 530 232 3344,Bursa, Kapalıçarşı Sokak No:18, Bursa,Türkiye
+50,Burcu Çetin,burcu.cetin@gmail.com,+90 531 223 1122,Maltepe, Huzur Sokak No:14, İstanbul,Türkiye

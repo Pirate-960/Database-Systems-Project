@@ -1,0 +1,41 @@
+RepairServiceID,Name,StartDate,EndDate,Price,Status,City,State,Country,ServiceType,DeviceName,DeviceType,DeviceModel,RepairType
+4001,Phone Screen Repair,2023-01-01,2023-01-03,150.00,Completed,Istanbul,Marmara,Turkey,Repair,iPhone,Smartphone,iPhone 12,Hardware
+4002,Laptop Hard Drive Replacement,2023-02-01,2023-02-03,250.00,Completed,Izmir,Izmir,Turkey,Repair,MacBook,Laptop,MacBook Air,Hardware
+4003,Software Reinstallation,2023-03-01,2023-03-02,80.00,Completed,Ankara,Ankara,Turkey,Repair,Lenovo,Laptop,ThinkPad X1,Software
+4004,Phone Battery Replacement,2023-04-01,2023-04-03,120.00,Completed,Istanbul,Marmara,Turkey,Repair,Galaxy,Smartphone,Samsung Galaxy S20,Hardware
+4005,PC RAM Upgrade,2023-05-01,2023-05-03,200.00,Completed,Izmir,Izmir,Turkey,Repair,HP,Laptop,HP Pavilion,Hardware
+4006,Tablet Screen Repair,2023-06-01,2023-06-04,180.00,Completed,Ankara,Ankara,Turkey,Repair,Galaxy,Tablet,Samsung Tab S7,Hardware
+4007,MacBook Key Replacement,2023-07-01,2023-07-02,100.00,Completed,Istanbul,Marmara,Turkey,Repair,MacBook,Laptop,MacBook Pro 13,Hardware
+4008,Smartphone Software Update,2023-08-01,2023-08-02,50.00,Completed,Izmir,Izmir,Turkey,Repair,Nokia,Smartphone,Nokia 8,Software
+4009,PC Software Optimization,2023-09-01,2023-09-02,75.00,Completed,Ankara,Ankara,Turkey,Repair,Dell,Laptop,Dell XPS 13,Software
+4010,Laptop Battery Replacement,2023-10-01,2023-10-03,140.00,Completed,Istanbul,Marmara,Turkey,Repair,HP,Laptop,HP Envy,Hardware
+4011,Smartwatch Screen Repair,2023-11-01,2023-11-02,100.00,Completed,Izmir,Izmir,Turkey,Repair,Apple Watch,Smartwatch,Apple Watch Series 6,Hardware
+4012,Phone Speaker Repair,2023-12-01,2023-12-02,90.00,Completed,Ankara,Ankara,Turkey,Repair,Xiaomi,Smartphone,Xiaomi Mi 11,Hardware
+4013,Software Bug Fix,2023-01-02,2023-01-04,60.00,Completed,Istanbul,Marmara,Turkey,Repair,Asus,Laptop,Asus ROG,Software
+4014,Laptop Screen Replacement,2023-02-01,2023-02-04,300.00,Completed,Izmir,Izmir,Turkey,Repair,Acer,Laptop,Acer Aspire,Hardware
+4015,Tablet Battery Replacement,2023-03-01,2023-03-03,130.00,Completed,Ankara,Ankara,Turkey,Repair,Lenovo,Tablet,Lenovo Tab M10,Hardware
+4016,Phone Camera Replacement,2023-04-01,2023-04-03,110.00,Completed,Istanbul,Marmara,Turkey,Repair,iPhone,Smartphone,iPhone 11 Pro,Hardware
+4017,PC Hard Drive Repair,2023-05-01,2023-05-02,180.00,Completed,Izmir,Izmir,Turkey,Repair,Lenovo,PC,Lenovo Desktop,Hardware
+4018,Smartphone Screen Repair,2023-06-01,2023-06-03,160.00,Completed,Ankara,Ankara,Turkey,Repair,OnePlus,Smartphone,OnePlus 8,Hardware
+4019,Laptop Upgrade,2023-07-01,2023-07-03,250.00,Completed,Istanbul,Marmara,Turkey,Repair,MacBook,Laptop,MacBook Pro 15,Hardware
+4020,Tablet Software Fix,2023-08-01,2023-08-02,70.00,Completed,Izmir,Izmir,Turkey,Repair,Samsung,Tablet,Samsung Tab S5,Software
+4021,Smartphone Factory Reset,2023-09-01,2023-09-02,60.00,Completed,Ankara,Ankara,Turkey,Repair,Sony,Smartphone,Sony Xperia Z5,Software
+4022,Phone Charger Repair,2023-10-01,2023-10-03,80.00,Completed,Istanbul,Marmara,Turkey,Repair,LG,Smartphone,LG G6,Hardware
+4023,Laptop Software Reinstallation,2023-11-01,2023-11-03,90.00,Completed,Izmir,Izmir,Turkey,Repair,HP,Laptop,HP EliteBook,Software
+4024,PC Power Supply Repair,2023-12-01,2023-12-03,200.00,Completed,Ankara,Ankara,Turkey,Repair,Dell,PC,Dell Inspiron,Hardware
+4025,Smartphone Hardware Fix,2023-01-03,2023-01-04,100.00,Completed,Istanbul,Marmara,Turkey,Repair,Huawei,Smartphone,Huawei P30,Hardware
+4026,Laptop Keyboard Repair,2023-02-03,2023-02-04,150.00,Completed,Izmir,Izmir,Turkey,Repair,Asus,Laptop,Asus VivoBook,Hardware
+4027,Phone Software Repair,2023-03-03,2023-03-04,50.00,Completed,Ankara,Ankara,Turkey,Repair,Samsung,Smartphone,Samsung Galaxy A50,Software
+4028,PC Antivirus Fix,2023-04-03,2023-04-04,60.00,Completed,Istanbul,Marmara,Turkey,Repair,HP,PC,HP Desktop,Software
+4029,Tablet Speaker Repair,2023-05-03,2023-05-04,80.00,Completed,Izmir,Izmir,Turkey,Repair,Amazon,Tablet,Amazon Fire HD 10,Hardware
+4030,Smartphone Update,2023-06-03,2023-06-04,40.00,Completed,Ankara,Ankara,Turkey,Repair,Google Pixel,Smartphone,Pixel 4,Software
+4031,Laptop Graphic Card Fix,2023-07-03,2023-07-05,220.00,Completed,Istanbul,Marmara,Turkey,Repair,MSI,Laptop,MSI GE75,Hardware
+4032,PC Software Update,2023-08-03,2023-08-04,50.00,Completed,Izmir,Izmir,Turkey,Repair,Asus,PC,Asus Tower,Software
+4033,Phone Back Cover Repair,2023-09-03,2023-09-04,70.00,Completed,Ankara,Ankara,Turkey,Repair,Motorola,Smartphone,Motorola Edge,Hardware
+4034,Tablet Camera Replacement,2023-10-03,2023-10-04,120.00,Completed,Istanbul,Marmara,Turkey,Repair,Samsung,Tablet,Samsung Tab A7,Hardware
+4035,PC RAM Issue Fix,2023-11-03,2023-11-04,150.00,Completed,Izmir,Izmir,Turkey,Repair,Acer,PC,Acer Desktop,Hardware
+4036,Smartphone Charging Port Repair,2023-12-03,2023-12-04,100.00,Completed,Ankara,Ankara,Turkey,Repair,Nokia,Smartphone,Nokia 6,Hardware
+4037,Laptop Audio Jack Repair,2023-01-04,2023-01-05,90.00,Completed,Istanbul,Marmara,Turkey,Repair,Toshiba,Laptop,Toshiba Satellite,Hardware
+4038,Tablet Repair (Miscellaneous),2023-02-04,2023-02-05,130.00,Completed,Izmir,Izmir,Turkey,Repair,Apple,Tablet,iPad Mini,Hardware
+4039,Phone Water Damage Fix,2023-03-04,2023-03-05,160.00,Completed,Ankara,Ankara,Turkey,Repair,Sony,Smartphone,Sony Xperia XZ,Hardware
+4040,PC Overheating Issue Fix,2023-04-04,2023-04-06,180.00,Completed,Istanbul,Marmara,Turkey,Repair,Lenovo,PC,Lenovo ThinkCentre,Hardware

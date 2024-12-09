@@ -1,0 +1,122 @@
+EmployeeID,Skill
+1,JavaScript
+1,TypeScript
+1,Node.js
+2,Data Analysis
+2,SQL
+2,Excel
+3,Cloud Computing
+3,Networking
+3,Python
+4,CICD
+4,Docker
+4,Kubernetes
+5,Agile Methodologies
+5,Project Management
+5,Leadership
+6,Penetration Testing
+6,Security Audits
+6,Networking
+7,SQL Server
+7,Database Design
+7,Performance Tuning
+8,React.js
+8,JavaScript
+8,HTML/CSS
+9,Routing and Switching
+9,Network Security
+9,Firewall Configuration
+10,Automation Testing
+10,Java
+10,JUnit
+11,Node.js
+11,JavaScript
+11,Backend Development
+12,Flutter
+12,Dart
+12,Mobile Development
+13,Unity
+13,C#
+13,Game Development
+14,Machine Learning
+14,Python
+14,Deep Learning
+15,System Troubleshooting
+15,Networking
+15,Technical Support
+16,User Research
+16,UX Design
+16,Wireframing
+17,AWS
+17,Cloud Computing
+17,DevOps
+18,Python
+18,Machine Learning
+18,Data Science
+19,MERN Stack
+19,JavaScript
+19,React.js
+19,Node.js
+20,IT Strategy
+20,Consulting
+20,Cloud Architecture
+21,Firewall Management
+21,Security
+21,Network Protection
+22,System Design
+22,Architecture
+22,Database Design
+23,Ansible
+23,Automation
+23,DevOps
+24,NoSQL Databases
+24,MongoDB
+24,Database Architecture
+25,Cisco Networking
+25,Network Design
+25,Router Configuration
+26,Figma
+26,UI Design
+26,Prototyping
+27,Django
+27,Python
+27,Web Development
+28,Documentation
+28,Technical Writing
+28,API Documentation
+29,Ethereum
+29,Blockchain
+29,Smart Contracts
+30,HTML/CSS
+30,JavaScript
+30,Web Development
+31,Kotlin
+31,Android Development
+31,Mobile Apps
+32,Manual Testing
+32,QA Testing
+32,Automation Tools
+33,Data Mining
+33,Data Analysis
+33,Machine Learning
+34,Penetration Testing
+34,Network Security
+34,Ethical Hacking
+35,Automation Testing
+35,Test Automation
+35,Selenium
+36,Agile Methodologies
+36,Project Management
+36,Scrum
+37,Unity
+37,Game Design
+37,VR Development
+38,System Troubleshooting
+38,Technical Support
+38,Windows Administration
+39,NoSQL Databases
+39,MongoDB
+39,Cassandra
+40,Google Cloud Platform
+40,Cloud Computing
+40,DevOps
