@@ -1,31 +1,31 @@
-CloudServiceID,Name,StartDate,EndDate,Price,Status,City,State,Country,ServiceType,CloudServiceProvider,StorageSize
-2001,Cloud Hosting,2023-01-01,2023-01-14,5000.00,Completed,Istanbul,Marmara,Turkey,Cloud,Amazon AWS,500GB
-2002,Cloud Backup Services,2023-02-01,2023-02-13,4500.00,Completed,Izmir,Izmir,Turkey,Cloud,Google Cloud,300GB
-2003,Cloud Storage,2023-03-01,2023-03-14,3500.00,Completed,Ankara,Ankara,Turkey,Cloud,Microsoft Azure,1TB
-2004,Cloud Application Hosting,2023-04-01,2023-04-13,4000.00,Completed,Istanbul,Marmara,Turkey,Cloud,IBM Cloud,700GB
-2005,Cloud Security Solutions,2023-05-01,2023-05-14,5000.00,Completed,Izmir,Izmir,Turkey,Cloud,Amazon AWS,1.5TB
-2006,Private Cloud Solutions,2023-06-01,2023-06-14,4500.00,Completed,Ankara,Ankara,Turkey,Cloud,Microsoft Azure,2TB
-2007,Cloud Platform Development,2023-07-01,2023-07-14,6000.00,Completed,Istanbul,Marmara,Turkey,Cloud,Google Cloud,800GB
-2008,Disaster Recovery Cloud,2023-08-01,2023-08-14,5000.00,Completed,Izmir,Izmir,Turkey,Cloud,Amazon AWS,600GB
-2009,Cloud Data Analytics,2023-09-01,2023-09-14,5500.00,Completed,Ankara,Ankara,Turkey,Cloud,IBM Cloud,1TB
-2010,Cloud DevOps Services,2023-10-01,2023-10-14,4500.00,Completed,Istanbul,Marmara,Turkey,Cloud,Google Cloud,1TB
-2011,Cloud Migration Solutions,2023-11-01,2023-11-14,5000.00,Completed,Izmir,Izmir,Turkey,Cloud,Microsoft Azure,900GB
-2012,Cloud API Integration,2023-12-01,2023-12-14,4000.00,Completed,Ankara,Ankara,Turkey,Cloud,Amazon AWS,650GB
-2013,Hybrid Cloud Solutions,2023-01-15,2023-01-29,4500.00,Completed,Istanbul,Marmara,Turkey,Cloud,IBM Cloud,1.2TB
-2014,Cloud Infrastructure Management,2023-02-15,2023-02-28,5000.00,Completed,Izmir,Izmir,Turkey,Cloud,Microsoft Azure,1TB
-2015,Multi-Cloud Solutions,2023-03-15,2023-03-28,5500.00,Completed,Ankara,Ankara,Turkey,Cloud,Google Cloud,800GB
-2016,Cloud Computing Solutions,2023-04-15,2023-04-28,6000.00,Active,Istanbul,Marmara,Turkey,Cloud,Amazon AWS,2TB
-2017,Cloud Database Solutions,2023-05-15,2023-05-28,4500.00,Completed,Izmir,Izmir,Turkey,Cloud,Microsoft Azure,1.3TB
-2018,Cloud Storage for Enterprises,2023-06-15,2023-06-28,4000.00,Completed,Ankara,Ankara,Turkey,Cloud,Google Cloud,1.1TB
-2019,Cloud-Based Business Solutions,2023-07-15,2023-07-28,5000.00,Active,Istanbul,Marmara,Turkey,Cloud,IBM Cloud,1.6TB
-2020,Cloud Disaster Recovery,2023-08-15,2023-08-28,6000.00,Completed,Izmir,Izmir,Turkey,Cloud,Amazon AWS,2TB
-2021,Cloud SaaS Solutions,2023-09-15,2023-09-28,5500.00,Active,Ankara,Ankara,Turkey,Cloud,Microsoft Azure,1.8TB
-2022,Cloud Virtualization,2023-10-15,2023-10-28,4500.00,Completed,Istanbul,Marmara,Turkey,Cloud,Google Cloud,1.5TB
-2023,Cloud Data Storage,2023-11-15,2023-11-28,5000.00,Completed,Izmir,Izmir,Turkey,Cloud,Amazon AWS,750GB
-2024,Cloud Software Solutions,2023-12-15,2023-12-28,5500.00,Active,Ankara,Ankara,Turkey,Cloud,IBM Cloud,1TB
-2025,Cloud Application Management,2023-01-01,2023-01-14,5000.00,Completed,Istanbul,Marmara,Turkey,Cloud,Google Cloud,1.2TB
-2026,Cloud Automation Services,2023-02-01,2023-02-14,4500.00,Completed,Izmir,Izmir,Turkey,Cloud,Amazon AWS,1.3TB
-2027,Cloud Hosting with Security,2023-03-01,2023-03-14,5500.00,Completed,Ankara,Ankara,Turkey,Cloud,Microsoft Azure,1TB
-2028,Cloud Integration Solutions,2023-04-01,2023-04-14,4000.00,Completed,Istanbul,Marmara,Turkey,Cloud,IBM Cloud,2TB
-2029,Cloud Security & Compliance,2023-05-01,2023-05-14,6000.00,Completed,Izmir,Izmir,Turkey,Cloud,Google Cloud,1.4TB
-2030,Private Cloud Storage,2023-06-01,2023-06-14,5000.00,Active,Ankara,Ankara,Turkey,Cloud,Amazon AWS,900GB
+CloudServiceID,Name,StartDate,EndDate,Price,Status,City,State,Country,ServiceType,Duration,CloudServiceProvider,StorageSize
+2001,Cloud Hosting,1/1/2023,1/14/2023,5000,Completed,Istanbul,Marmara,Turkey,Cloud,13,Amazon AWS,500GB
+2002,Cloud Backup Services,2/1/2023,2/13/2023,4500,Completed,Izmir,Izmir,Turkey,Cloud,12,Google Cloud,300GB
+2003,Cloud Storage,3/1/2023,3/14/2023,3500,Completed,Ankara,Ankara,Turkey,Cloud,13,Microsoft Azure,1TB
+2004,Cloud Application Hosting,4/1/2023,4/13/2023,4000,Completed,Istanbul,Marmara,Turkey,Cloud,12,IBM Cloud,700GB
+2005,Cloud Security Solutions,5/1/2023,5/14/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,13,Amazon AWS,1.5TB
+2006,Private Cloud Solutions,6/1/2023,6/14/2023,4500,Completed,Ankara,Ankara,Turkey,Cloud,13,Microsoft Azure,2TB
+2007,Cloud Platform Development,7/1/2023,7/14/2023,6000,Completed,Istanbul,Marmara,Turkey,Cloud,13,Google Cloud,800GB
+2008,Disaster Recovery Cloud,8/1/2023,8/14/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,13,Amazon AWS,600GB
+2009,Cloud Data Analytics,9/1/2023,9/14/2023,5500,Completed,Ankara,Ankara,Turkey,Cloud,13,IBM Cloud,1TB
+2010,Cloud DevOps Services,10/1/2023,10/14/2023,4500,Completed,Istanbul,Marmara,Turkey,Cloud,13,Google Cloud,1TB
+2011,Cloud Migration Solutions,11/1/2023,11/14/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,13,Microsoft Azure,900GB
+2012,Cloud API Integration,12/1/2023,12/14/2023,4000,Completed,Ankara,Ankara,Turkey,Cloud,13,Amazon AWS,650GB
+2013,Hybrid Cloud Solutions,1/15/2023,1/29/2023,4500,Completed,Istanbul,Marmara,Turkey,Cloud,14,IBM Cloud,1.2TB
+2014,Cloud Infrastructure Management,2/15/2023,2/28/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,13,Microsoft Azure,1TB
+2015,Multi-Cloud Solutions,3/15/2023,3/28/2023,5500,Completed,Ankara,Ankara,Turkey,Cloud,13,Google Cloud,800GB
+2016,Cloud Computing Solutions,4/15/2023,4/28/2023,6000,Active,Istanbul,Marmara,Turkey,Cloud,13,Amazon AWS,2TB
+2017,Cloud Database Solutions,5/15/2023,5/28/2023,4500,Completed,Izmir,Izmir,Turkey,Cloud,13,Microsoft Azure,1.3TB
+2018,Cloud Storage for Enterprises,6/15/2023,6/28/2023,4000,Completed,Ankara,Ankara,Turkey,Cloud,13,Google Cloud,1.1TB
+2019,Cloud-Based Business Solutions,7/15/2023,7/28/2023,5000,Active,Istanbul,Marmara,Turkey,Cloud,13,IBM Cloud,1.6TB
+2020,Cloud Disaster Recovery,8/15/2023,8/28/2023,6000,Completed,Izmir,Izmir,Turkey,Cloud,13,Amazon AWS,2TB
+2021,Cloud SaaS Solutions,9/15/2023,9/28/2023,5500,Active,Ankara,Ankara,Turkey,Cloud,13,Microsoft Azure,1.8TB
+2022,Cloud Virtualization,10/15/2023,10/28/2023,4500,Completed,Istanbul,Marmara,Turkey,Cloud,13,Google Cloud,1.5TB
+2023,Cloud Data Storage,11/15/2023,11/28/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,13,Amazon AWS,750GB
+2024,Cloud Software Solutions,12/15/2023,12/28/2023,5500,Active,Ankara,Ankara,Turkey,Cloud,13,IBM Cloud,1TB
+2025,Cloud Application Management,1/1/2023,1/14/2023,5000,Completed,Istanbul,Marmara,Turkey,Cloud,13,Google Cloud,1.2TB
+2026,Cloud Automation Services,2/1/2023,2/14/2023,4500,Completed,Izmir,Izmir,Turkey,Cloud,13,Amazon AWS,1.3TB
+2027,Cloud Hosting with Security,3/1/2023,3/14/2023,5500,Completed,Ankara,Ankara,Turkey,Cloud,13,Microsoft Azure,1TB
+2028,Cloud Integration Solutions,4/1/2023,4/14/2023,4000,Completed,Istanbul,Marmara,Turkey,Cloud,13,IBM Cloud,2TB
+2029,Cloud Security & Compliance,5/1/2023,5/14/2023,6000,Completed,Izmir,Izmir,Turkey,Cloud,13,Google Cloud,1.4TB
+2030,Private Cloud Storage,6/1/2023,6/14/2023,5000,Active,Ankara,Ankara,Turkey,Cloud,13,Amazon AWS,900GB
