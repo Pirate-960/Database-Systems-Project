@@ -259,3 +259,103 @@ ServiceID,Name,StartDate,EndDate,Price,Status,City,State,Country,ServiceType,Dur
 6023,Online Learning Platform,11/10/2023,11/25/2023,3500,Completed,Antalya,Antalya,Turkey,Software Development,15
 6024,CRM App Development,12/1/2023,12/15/2023,2200,Completed,Istanbul,Marmara,Turkey,Software Development,14
 6025,Booking App Development,1/5/2023,1/20/2023,1900,Completed,Izmir,Izmir,Turkey,Software Development,15
+4001,Phone Screen Repair,1/1/2023,1/3/2023,150,Completed,Istanbul,Marmara,Turkey,Repair,2
+4002,Laptop Hard Drive Replacement,2/1/2023,2/3/2023,250,Completed,Izmir,Izmir,Turkey,Repair,2
+4003,Software Reinstallation,3/1/2023,3/2/2023,80,Completed,Ankara,Ankara,Turkey,Repair,1
+4004,Phone Battery Replacement,4/1/2023,4/3/2023,120,Completed,Istanbul,Marmara,Turkey,Repair,2
+4005,PC RAM Upgrade,5/1/2023,5/3/2023,200,Completed,Izmir,Izmir,Turkey,Repair,2
+4006,Tablet Screen Repair,6/1/2023,6/4/2023,180,Completed,Ankara,Ankara,Turkey,Repair,3
+4007,MacBook Key Replacement,7/1/2023,7/2/2023,100,Completed,Istanbul,Marmara,Turkey,Repair,1
+4008,Smartphone Software Update,8/1/2023,8/2/2023,50,Completed,Izmir,Izmir,Turkey,Repair,1
+4009,PC Software Optimization,9/1/2023,9/2/2023,75,Completed,Ankara,Ankara,Turkey,Repair,1
+4010,Laptop Battery Replacement,10/1/2023,10/3/2023,140,Completed,Istanbul,Marmara,Turkey,Repair,2
+4011,Smartwatch Screen Repair,11/1/2023,11/2/2023,100,Completed,Izmir,Izmir,Turkey,Repair,1
+4012,Phone Speaker Repair,12/1/2023,12/2/2023,90,Completed,Ankara,Ankara,Turkey,Repair,1
+4013,Software Bug Fix,1/2/2023,1/4/2023,60,Completed,Istanbul,Marmara,Turkey,Repair,2
+4014,Laptop Screen Replacement,2/1/2023,2/4/2023,300,Completed,Izmir,Izmir,Turkey,Repair,3
+4015,Tablet Battery Replacement,3/1/2023,3/3/2023,130,Completed,Ankara,Ankara,Turkey,Repair,2
+4016,Phone Camera Replacement,4/1/2023,4/3/2023,110,Completed,Istanbul,Marmara,Turkey,Repair,2
+4017,PC Hard Drive Repair,5/1/2023,5/2/2023,180,Completed,Izmir,Izmir,Turkey,Repair,1
+4018,Smartphone Screen Repair,6/1/2023,6/3/2023,160,Completed,Ankara,Ankara,Turkey,Repair,2
+4019,Laptop Upgrade,7/1/2023,7/3/2023,250,Completed,Istanbul,Marmara,Turkey,Repair,2
+4020,Tablet Software Fix,8/1/2023,8/2/2023,70,Completed,Izmir,Izmir,Turkey,Repair,1
+4021,Smartphone Factory Reset,9/1/2023,9/2/2023,60,Completed,Ankara,Ankara,Turkey,Repair,1
+4022,Phone Charger Repair,10/1/2023,10/3/2023,80,Completed,Istanbul,Marmara,Turkey,Repair,2
+4023,Laptop Software Reinstallation,11/1/2023,11/3/2023,90,Completed,Izmir,Izmir,Turkey,Repair,2
+4024,PC Power Supply Repair,12/1/2023,12/3/2023,200,Completed,Ankara,Ankara,Turkey,Repair,2
+4025,Smartphone Hardware Fix,1/3/2023,1/4/2023,100,Completed,Istanbul,Marmara,Turkey,Repair,1
+4026,Laptop Keyboard Repair,2/3/2023,2/4/2023,150,Completed,Izmir,Izmir,Turkey,Repair,1
+4027,Phone Software Repair,3/3/2023,3/4/2023,50,Completed,Ankara,Ankara,Turkey,Repair,1
+4028,PC Antivirus Fix,4/3/2023,4/4/2023,60,Completed,Istanbul,Marmara,Turkey,Repair,1
+4029,Tablet Speaker Repair,5/3/2023,5/4/2023,80,Completed,Izmir,Izmir,Turkey,Repair,1
+4030,Smartphone Update,6/3/2023,6/4/2023,40,Completed,Ankara,Ankara,Turkey,Repair,1
+4031,Laptop Graphic Card Fix,7/3/2023,7/5/2023,220,Completed,Istanbul,Marmara,Turkey,Repair,2
+4032,PC Software Update,8/3/2023,8/4/2023,50,Completed,Izmir,Izmir,Turkey,Repair,1
+4033,Phone Back Cover Repair,9/3/2023,9/4/2023,70,Completed,Ankara,Ankara,Turkey,Repair,1
+4034,Tablet Camera Replacement,10/3/2023,10/4/2023,120,Completed,Istanbul,Marmara,Turkey,Repair,1
+4035,PC RAM Issue Fix,11/3/2023,11/4/2023,150,Completed,Izmir,Izmir,Turkey,Repair,1
+4036,Smartphone Charging Port Repair,12/3/2023,12/4/2023,100,Completed,Ankara,Ankara,Turkey,Repair,1
+4037,Laptop Audio Jack Repair,1/4/2023,1/5/2023,90,Completed,Istanbul,Marmara,Turkey,Repair,1
+4038,Tablet Repair (Miscellaneous),2/4/2023,2/5/2023,130,Completed,Izmir,Izmir,Turkey,Repair,1
+4039,Phone Water Damage Fix,3/4/2023,3/5/2023,160,Completed,Ankara,Ankara,Turkey,Repair,1
+4040,PC Overheating Issue Fix,4/4/2023,4/6/2023,180,Completed,Istanbul,Marmara,Turkey,Repair,2
+8001,Antivirus Repair,1/10/2023,1/15/2023,100,Completed,Istanbul,Marmara,Turkey,Repair,5
+8002,Operating System Reinstallation,2/1/2023,2/5/2023,120,Completed,Ankara,Ankara,Turkey,Repair,4
+8003,Antivirus Update,3/5/2023,3/10/2023,80,Completed,Izmir,Izmir,Turkey,Repair,5
+8004,Malware Removal,4/1/2023,4/10/2023,150,Completed,Antalya,Antalya,Turkey,Repair,9
+8005,Software Configuration,5/1/2023,5/5/2023,90,Completed,Bursa,Bursa,Turkey,Repair,4
+8006,Application Update,6/10/2023,6/15/2023,50,Completed,Konya,Konya,Turkey,Repair,5
+8007,Antivirus Removal,7/1/2023,7/5/2023,60,Completed,Istanbul,Marmara,Turkey,Repair,4
+8008,Driver Update,8/15/2023,8/20/2023,70,Completed,Izmir,Izmir,Turkey,Repair,5
+8009,App Reinstallation,9/1/2023,9/5/2023,110,Completed,Ankara,Ankara,Turkey,Repair,4
+8010,Software Upgrade,10/5/2023,10/10/2023,140,Completed,Antalya,Antalya,Turkey,Repair,5
+8011,Software Troubleshooting,11/1/2023,11/7/2023,100,Completed,Bursa,Bursa,Turkey,Repair,6
+8012,Software Update,12/1/2023,12/5/2023,85,Completed,Konya,Konya,Turkey,Repair,4
+8013,Game Patch Update,1/15/2023,1/20/2023,60,Completed,Istanbul,Marmara,Turkey,Repair,5
+8014,Operating System Repair,2/10/2023,2/15/2023,120,Completed,Izmir,Izmir,Turkey,Repair,5
+8015,Data Recovery Software,3/20/2023,3/25/2023,180,Completed,Antalya,Antalya,Turkey,Repair,5
+8016,Email Client Setup,4/10/2023,4/15/2023,80,Completed,Bursa,Bursa,Turkey,Repair,5
+8017,Server Software Configuration,5/1/2023,5/7/2023,220,Completed,Konya,Konya,Turkey,Repair,6
+8018,Database Repair,6/5/2023,6/10/2023,200,Completed,Istanbul,Marmara,Turkey,Repair,5
+8019,Software Compatibility Fix,7/10/2023,7/15/2023,130,Completed,Izmir,Izmir,Turkey,Repair,5
+8020,Desktop Software Installation,8/1/2023,8/5/2023,90,Completed,Ankara,Ankara,Turkey,Repair,4
+8021,Web Browser Update,9/1/2023,9/5/2023,70,Completed,Antalya,Antalya,Turkey,Repair,4
+8022,Security Software Repair,10/1/2023,10/7/2023,160,Completed,Bursa,Bursa,Turkey,Repair,6
+8023,Software Licensing Issue,11/1/2023,11/10/2023,50,Completed,Konya,Konya,Turkey,Repair,9
+8024,Anti-spyware Repair,12/1/2023,12/10/2023,80,Completed,Istanbul,Marmara,Turkey,Repair,9
+8025,Photo Editing Software Repair,1/10/2023,1/15/2023,100,Completed,Izmir,Izmir,Turkey,Repair,5
+8026,Document Management Software Repair,2/1/2023,2/5/2023,95,Completed,Antalya,Antalya,Turkey,Repair,4
+8027,Video Editing Software Repair,3/15/2023,3/20/2023,150,Completed,Bursa,Bursa,Turkey,Repair,5
+8028,Virtual Machine Repair,4/10/2023,4/15/2023,180,Completed,Konya,Konya,Turkey,Repair,5
+8029,Network Management Software Repair,5/1/2023,5/7/2023,210,Completed,Istanbul,Marmara,Turkey,Repair,6
+8030,Software Configuration Repair,6/5/2023,6/10/2023,130,Completed,Izmir,Izmir,Turkey,Repair,5
+7001,Hard Drive Repair,1/10/2023,1/15/2023,150,Completed,Istanbul,Marmara,Turkey,Repair,5
+7002,Keyboard Replacement,2/5/2023,2/10/2023,50,Completed,Ankara,Ankara,Turkey,Repair,5
+7003,Graphics Card Repair,3/1/2023,3/5/2023,200,Completed,Izmir,Izmir,Turkey,Repair,4
+7004,Power Supply Repair,4/1/2023,4/10/2023,120,Completed,Antalya,Antalya,Turkey,Repair,9
+7005,Laptop Screen Replacement,5/1/2023,5/10/2023,180,Completed,Bursa,Bursa,Turkey,Repair,9
+7006,Processor Repair,6/10/2023,6/20/2023,250,Completed,Konya,Konya,Turkey,Repair,10
+7007,Hard Drive Repair,7/1/2023,7/10/2023,140,Completed,Istanbul,Marmara,Turkey,Repair,9
+7008,RAM Replacement,8/5/2023,8/12/2023,100,Completed,Izmir,Izmir,Turkey,Repair,7
+7009,Graphics Card Replacement,9/1/2023,9/5/2023,250,Completed,Ankara,Ankara,Turkey,Repair,4
+7010,CPU Fan Repair,10/1/2023,10/5/2023,75,Completed,Antalya,Antalya,Turkey,Repair,4
+7011,Hard Drive Repair,11/1/2023,11/7/2023,130,Completed,Bursa,Bursa,Turkey,Repair,6
+7012,SSD Replacement,12/1/2023,12/5/2023,180,Completed,Konya,Konya,Turkey,Repair,4
+7013,Monitor Repair,1/15/2023,1/25/2023,220,Completed,Istanbul,Marmara,Turkey,Repair,10
+7014,Laptop Motherboard Repair,2/1/2023,2/10/2023,300,Completed,Izmir,Izmir,Turkey,Repair,9
+7015,Hard Drive Repair,3/10/2023,3/20/2023,150,Completed,Antalya,Antalya,Turkey,Repair,10
+7016,Power Supply Replacement,4/15/2023,4/20/2023,110,Completed,Bursa,Bursa,Turkey,Repair,5
+7017,CPU Repair,5/10/2023,5/15/2023,220,Completed,Konya,Konya,Turkey,Repair,5
+7018,Graphics Card Repair,6/1/2023,6/10/2023,250,Completed,Istanbul,Marmara,Turkey,Repair,9
+7019,Keyboard Repair,7/5/2023,7/15/2023,60,Completed,Izmir,Izmir,Turkey,Repair,10
+7020,Monitor Replacement,8/1/2023,8/10/2023,220,Completed,Ankara,Ankara,Turkey,Repair,9
+7021,SSD Repair,9/10/2023,9/15/2023,180,Completed,Antalya,Antalya,Turkey,Repair,5
+7022,Laptop Battery Replacement,10/5/2023,10/15/2023,80,Completed,Bursa,Bursa,Turkey,Repair,10
+7023,Hard Drive Repair,11/1/2023,11/10/2023,140,Completed,Konya,Konya,Turkey,Repair,9
+7024,SSD Repair,12/10/2023,12/20/2023,170,Completed,Istanbul,Marmara,Turkey,Repair,10
+7025,Laptop Motherboard Repair,1/20/2023,1/30/2023,280,Completed,Izmir,Izmir,Turkey,Repair,10
+7026,Graphics Card Repair,2/15/2023,2/25/2023,250,Completed,Antalya,Antalya,Turkey,Repair,10
+7027,CPU Cooling Fan Repair,3/5/2023,3/15/2023,95,Completed,Bursa,Bursa,Turkey,Repair,10
+7028,SSD Replacement,4/1/2023,4/10/2023,180,Completed,Konya,Konya,Turkey,Repair,9
+7029,Laptop Display Replacement,5/15/2023,5/25/2023,200,Completed,Istanbul,Marmara,Turkey,Repair,10
+7030,Hard Drive Repair,6/5/2023,6/15/2023,150,Completed,Izmir,Izmir,Turkey,Repair,10
