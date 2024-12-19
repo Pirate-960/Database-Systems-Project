@@ -1,17 +1,27 @@
 import csv
 
-# Define the range of CustomerID and ServiceID
-customer_ids = range(1, 41)  # CustomerIDs 1 to 40
-service_ids = range(1001, 1151)  # ServiceIDs 1001 to 1150
+# Define input file names
+customer_file = "Customer.csv"
+service_file = "Service.csv"
 
 # Define the output CSV file name
 output_file = "CustomerRequestedService.csv"
 
-# Open the file for writing
+# Read CustomerID from Customer.csv
+with open(customer_file, mode='r') as file:
+    reader = csv.DictReader(file)
+    customer_ids = [row["CustomerID"] for row in reader]
+
+# Read ServiceID from Service.csv
+with open(service_file, mode='r') as file:
+    reader = csv.DictReader(file)
+    service_ids = [row["ServiceID"] for row in reader]
+
+# Open the output file for writing
 with open(output_file, mode='w', newline='') as file:
     writer = csv.writer(file)
     # Write the header
-    writer.writerow(["EmployeeID", "ServiceID"])
+    writer.writerow(["CustomerID", "ServiceID"])
     
     # Write the Cartesian product of CustomerID and ServiceID
     for customer_id in customer_ids:

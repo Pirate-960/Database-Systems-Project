@@ -1,13 +1,23 @@
 import csv
 
-# Define the range of ServiceID and ItemID
-service_ids = range(1001, 1151)  # ServiceIDs 1001 to 1150
-item_ids = range(1, 31)      # ItemIDs 1 to 30
+# Define input file names
+service_file = "Service.csv"
+item_file = "Item.csv"
 
 # Define the output CSV file name
 output_file = "ServiceUsedItem.csv"
 
-# Open the file for writing
+# Read ServiceID from Service.csv
+with open(service_file, mode='r') as file:
+    reader = csv.DictReader(file)
+    service_ids = [row["ServiceID"] for row in reader]
+
+# Read ItemID from Item.csv
+with open(item_file, mode='r') as file:
+    reader = csv.DictReader(file)
+    item_ids = [row["ItemID"] for row in reader]
+
+# Open the output file for writing
 with open(output_file, mode='w', newline='') as file:
     writer = csv.writer(file)
     # Write the header

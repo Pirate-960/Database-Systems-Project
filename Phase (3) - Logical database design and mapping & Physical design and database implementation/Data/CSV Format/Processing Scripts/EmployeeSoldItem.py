@@ -1,13 +1,23 @@
 import csv
 
-# Define the range of EmployeeID and ItemID
-employee_ids = range(1, 41)  # EmployeeIDs 1 to 40
-item_ids = range(1, 31)      # ItemIDs 1 to 30
+# Define input file names
+employee_file = "Employee.csv"
+item_file = "Item.csv"
 
 # Define the output CSV file name
 output_file = "EmployeeSoldItem.csv"
 
-# Open the file for writing
+# Read EmployeeID from Employee.csv
+with open(employee_file, mode='r') as file:
+    reader = csv.DictReader(file)
+    employee_ids = [row["EmployeeID"] for row in reader]
+
+# Read ItemID from Item.csv
+with open(item_file, mode='r') as file:
+    reader = csv.DictReader(file)
+    item_ids = [row["ItemID"] for row in reader]
+
+# Open the output file for writing
 with open(output_file, mode='w', newline='') as file:
     writer = csv.writer(file)
     # Write the header
