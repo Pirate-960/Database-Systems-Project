@@ -31,6 +31,18 @@ CREATE TABLE Employee (
     Salary INT NOT NULL                     -- Salary of the employee
 );
 
+-- EmployeeSkill Table
+-- This table stores information about employee skills.
+create table EmployeeSkill (
+    EmployeeID int not null,
+    SkillID int not null,
+    -- Foreign key constraint to Employee table
+    FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID),
+    -- Foreign key constraint to Skill table
+    FOREIGN KEY (SkillID) REFERENCES Skill(SkillID),
+    primary key (EmployeeID, SkillID)
+);
+
 -- Service Table
 -- This table stores information about services provided by the company.
 CREATE TABLE Service (
