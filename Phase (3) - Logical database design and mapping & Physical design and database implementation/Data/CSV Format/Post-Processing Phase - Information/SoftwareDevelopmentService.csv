@@ -1,26 +1,26 @@
-SoftwareServiceID,Name,StartDate,EndDate,Price,Status,City,State,Country,ServiceType,Duration,DevelopmentTool,DevelopmentType
-6001,Mobile App Development,1/10/2023,2/10/2023,2500,Completed,Istanbul,Marmara,Turkey,Software Development,31,React Native;Xcode;Firebase,App
-6002,Web Portal Development,2/5/2023,2/25/2023,3000,Completed,Ankara,Ankara,Turkey,Software Development,20,React;Node.js;MongoDB,Web
-6003,Custom CRM System,3/1/2023,3/15/2023,2000,Completed,Izmir,Izmir,Turkey,Software Development,14,Angular;Node.js;PostgreSQL,Web
-6004,Payment Gateway Integration,4/1/2023,4/10/2023,1500,Completed,Antalya,Antalya,Turkey,Software Development,9,PHP;MySQL,Web
-6005,Android App Development,5/1/2023,5/20/2023,2200,Completed,Bursa,Bursa,Turkey,Software Development,19,Android Studio;Firebase,App
-6006,E-commerce Platform Development,6/5/2023,6/25/2023,3500,Completed,Konya,Konya,Turkey,Software Development,20,React;Node.js;MongoDB,Web
-6007,Internal Tool Development,7/1/2023,7/10/2023,1000,Completed,Istanbul,Marmara,Turkey,Software Development,9,Vue.js;Firebase,Web
-6008,Hybrid App Development,8/5/2023,8/25/2023,2800,Completed,Izmir,Izmir,Turkey,Software Development,20,Flutter;Firebase,App
-6009,Website Redesign,9/1/2023,9/10/2023,1200,Completed,Ankara,Ankara,Turkey,Software Development,9,HTML;CSS;JavaScript,Web
-6010,App UI/UX Design,10/1/2023,10/10/2023,1500,Completed,Bursa,Bursa,Turkey,Software Development,9,Figma;Sketch,App
-6011,Enterprise Resource Planning (ERP),11/1/2023,11/20/2023,4000,Completed,Antalya,Antalya,Turkey,Software Development,19,React;Node.js;MongoDB,Web
-6012,Inventory Management System,12/1/2023,12/15/2023,2000,Completed,Istanbul,Marmara,Turkey,Software Development,14,Vue.js;Node.js;MySQL,Web
-6013,Cloud App Development,1/15/2023,2/5/2023,2700,Completed,Izmir,Izmir,Turkey,Software Development,21,React Native;AWS,App
-6014,Real-time Messaging App,2/10/2023,2/25/2023,2100,Completed,Ankara,Ankara,Turkey,Software Development,15,Flutter;Firebase,App
-6015,Mobile Game Development,3/10/2023,3/30/2023,3000,Completed,Antalya,Antalya,Turkey,Software Development,20,Unity;C#,App
-6016,Social Media Web App,4/10/2023,4/30/2023,3500,Completed,Istanbul,Marmara,Turkey,Software Development,20,React;Node.js;MongoDB,Web
-6017,Dashboard Development,5/15/2023,5/25/2023,1800,Completed,Izmir,Izmir,Turkey,Software Development,10,Angular;TypeScript,Web
-6018,Hotel Booking System,6/15/2023,6/30/2023,2500,Completed,Bursa,Bursa,Turkey,Software Development,15,React;Node.js;MySQL,Web
-6019,Custom Mobile App,7/10/2023,7/25/2023,2200,Completed,Antalya,Antalya,Turkey,Software Development,15,React Native;Firebase,App
-6020,Web Scraping Tool,8/15/2023,8/25/2023,1300,Completed,Istanbul,Marmara,Turkey,Software Development,10,Python;BeautifulSoup,Web
-6021,Task Management App,9/5/2023,9/15/2023,1500,Completed,Izmir,Izmir,Turkey,Software Development,10,Flutter;SQLite,App
-6022,Health Tracker App,10/5/2023,10/15/2023,1700,Completed,Bursa,Bursa,Turkey,Software Development,10,React Native;Firebase,App
-6023,Online Learning Platform,11/10/2023,11/25/2023,3500,Completed,Antalya,Antalya,Turkey,Software Development,15,React;Node.js;MongoDB,Web
-6024,CRM App Development,12/1/2023,12/15/2023,2200,Completed,Istanbul,Marmara,Turkey,Software Development,14,React Native;MySQL,App
-6025,Booking App Development,1/5/2023,1/20/2023,1900,Completed,Izmir,Izmir,Turkey,Software Development,15,React Native;Node.js,App
+SoftwareServiceID,App,Web
+6001,App,null
+6002,null,Web
+6003,null,Web
+6004,null,Web
+6005,App,null
+6006,null,Web
+6007,null,Web
+6008,App,null
+6009,null,Web
+6010,App,null
+6011,null,Web
+6012,null,Web
+6013,App,null
+6014,App,null
+6015,App,null
+6016,null,Web
+6017,null,Web
+6018,null,Web
+6019,App,null
+6020,null,Web
+6021,App,null
+6022,App,null
+6023,null,Web
+6024,App,null
+6025,App,null

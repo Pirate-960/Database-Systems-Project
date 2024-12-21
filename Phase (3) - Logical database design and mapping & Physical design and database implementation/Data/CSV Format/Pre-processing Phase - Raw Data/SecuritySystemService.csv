@@ -1,0 +1,31 @@
+SecurityServiceID,Name,StartDate,EndDate,Price,Status,City,State,Country,ServiceType,Duration,SecurityApp,SecurityPackageType
+3001,Network Firewall,1/1/2023,1/15/2023,4000,Completed,Istanbul,Marmara,Turkey,Security,14,FireWallPlus,Standard
+3002,Antivirus Protection,2/1/2023,2/14/2023,1500,Completed,Izmir,Izmir,Turkey,Security,13,SecureGuard,Premium
+3003,Security Monitoring,3/1/2023,3/14/2023,3500,Completed,Ankara,Ankara,Turkey,Security,13,SafeTrack,Standard
+3004,Endpoint Protection,4/1/2023,4/14/2023,2500,Completed,Istanbul,Marmara,Turkey,Security,13,EndpointPro,Advanced
+3005,Cloud Security,5/1/2023,5/14/2023,4000,Completed,Izmir,Izmir,Turkey,Security,13,CloudSecure,Standard
+3006,Network Security,6/1/2023,6/14/2023,5000,Completed,Ankara,Ankara,Turkey,Security,13,NetGuard,Premium
+3007,Intrusion Detection,7/1/2023,7/14/2023,4500,Completed,Istanbul,Marmara,Turkey,Security,13,IntruderAlert,Advanced
+3008,VPN Service,8/1/2023,8/14/2023,3000,Completed,Izmir,Izmir,Turkey,Security,13,SecureVPN,Standard
+3009,Data Encryption,9/1/2023,9/14/2023,3500,Completed,Ankara,Ankara,Turkey,Security,13,EncryptNow,Premium
+3010,Threat Detection,10/1/2023,10/14/2023,4000,Completed,Istanbul,Marmara,Turkey,Security,13,ThreatGuard,Advanced
+3011,Mobile Security,11/1/2023,11/14/2023,2500,Completed,Izmir,Izmir,Turkey,Security,13,MobileShield,Standard
+3012,Security Audit,12/1/2023,12/14/2023,5500,Completed,Ankara,Ankara,Turkey,Security,13,AuditSafe,Premium
+3013,Fire Detection,1/15/2023,1/29/2023,3500,Completed,Istanbul,Marmara,Turkey,Security,14,FireAlert,Standard
+3014,Access Control,2/15/2023,2/28/2023,5000,Completed,Izmir,Izmir,Turkey,Security,13,AccessLock,Advanced
+3015,Video Surveillance,3/15/2023,3/28/2023,6000,Completed,Ankara,Ankara,Turkey,Security,13,SurveilPro,Premium
+3016,Identity Protection,4/15/2023,4/28/2023,4500,Active,Istanbul,Marmara,Turkey,Security,13,IDGuard,Standard
+3017,Security Consulting,5/15/2023,5/28/2023,5500,Completed,Izmir,Izmir,Turkey,Security,13,SecureConsult,Advanced
+3018,Wi-Fi Security,6/15/2023,6/28/2023,3000,Completed,Ankara,Ankara,Turkey,Security,13,WiFiGuard,Standard
+3019,Phishing Protection,7/15/2023,7/28/2023,3500,Completed,Istanbul,Marmara,Turkey,Security,13,PhishDefender,Premium
+3020,Penetration Testing,8/15/2023,8/28/2023,4500,Completed,Izmir,Izmir,Turkey,Security,13,PenTestPro,Advanced
+3021,Cloud Access Security,9/15/2023,9/28/2023,5000,Completed,Ankara,Ankara,Turkey,Security,13,CloudProtect,Standard
+3022,Compliance Management,10/15/2023,10/28/2023,5500,Completed,Istanbul,Marmara,Turkey,Security,13,ComplySecure,Premium
+3023,Zero Trust Security,11/15/2023,11/28/2023,6000,Active,Izmir,Izmir,Turkey,Security,13,ZeroTrustShield,Advanced
+3024,Security Patching,12/15/2023,12/28/2023,3500,Completed,Ankara,Ankara,Turkey,Security,13,PatchSafe,Standard
+3025,Cloud Threat Intelligence,1/1/2023,1/14/2023,4000,Completed,Istanbul,Marmara,Turkey,Security,13,CloudThreat,Premium
+3026,Advanced Malware Protection,2/1/2023,2/14/2023,5000,Completed,Izmir,Izmir,Turkey,Security,13,MalwareX,Advanced
+3027,Mobile Device Management,3/1/2023,3/14/2023,4500,Completed,Ankara,Ankara,Turkey,Security,13,DeviceShield,Standard
+3028,Endpoint Detection,4/1/2023,4/14/2023,3500,Completed,Istanbul,Marmara,Turkey,Security,13,EndPointX,Premium
+3029,Data Loss Prevention,5/1/2023,5/14/2023,5500,Completed,Izmir,Izmir,Turkey,Security,13,DataDefender,Advanced
+3030,Security Incident Response,6/1/2023,6/14/2023,4000,Active,Ankara,Ankara,Turkey,Security,13,IncidentRescue,Standard

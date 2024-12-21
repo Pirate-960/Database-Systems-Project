@@ -1,211 +1,211 @@
-ServiceID,Name,StartDate,EndDate,Price,Status,City,State,Country,ServiceType,Duration
-2001,Cloud Hosting,1/1/2023,1/14/2023,5000,Completed,Istanbul,Marmara,Turkey,Cloud,13
-2002,Cloud Backup Services,2/1/2023,2/13/2023,4500,Completed,Izmir,Izmir,Turkey,Cloud,12
-2003,Cloud Storage,3/1/2023,3/14/2023,3500,Completed,Ankara,Ankara,Turkey,Cloud,13
-2004,Cloud Application Hosting,4/1/2023,4/13/2023,4000,Completed,Istanbul,Marmara,Turkey,Cloud,12
-2005,Cloud Security Solutions,5/1/2023,5/14/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,13
-2006,Private Cloud Solutions,6/1/2023,6/14/2023,4500,Completed,Ankara,Ankara,Turkey,Cloud,13
-2007,Cloud Platform Development,7/1/2023,7/14/2023,6000,Completed,Istanbul,Marmara,Turkey,Cloud,13
-2008,Disaster Recovery Cloud,8/1/2023,8/14/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,13
-2009,Cloud Data Analytics,9/1/2023,9/14/2023,5500,Completed,Ankara,Ankara,Turkey,Cloud,13
-2010,Cloud DevOps Services,10/1/2023,10/14/2023,4500,Completed,Istanbul,Marmara,Turkey,Cloud,13
-2011,Cloud Migration Solutions,11/1/2023,11/14/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,13
-2012,Cloud API Integration,12/1/2023,12/14/2023,4000,Completed,Ankara,Ankara,Turkey,Cloud,13
-2013,Hybrid Cloud Solutions,1/15/2023,1/29/2023,4500,Completed,Istanbul,Marmara,Turkey,Cloud,14
-2014,Cloud Infrastructure Management,2/15/2023,2/28/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,13
-2015,Multi-Cloud Solutions,3/15/2023,3/28/2023,5500,Completed,Ankara,Ankara,Turkey,Cloud,13
-2016,Cloud Computing Solutions,4/15/2023,4/28/2023,6000,Active,Istanbul,Marmara,Turkey,Cloud,13
-2017,Cloud Database Solutions,5/15/2023,5/28/2023,4500,Completed,Izmir,Izmir,Turkey,Cloud,13
-2018,Cloud Storage for Enterprises,6/15/2023,6/28/2023,4000,Completed,Ankara,Ankara,Turkey,Cloud,13
-2019,Cloud-Based Business Solutions,7/15/2023,7/28/2023,5000,Active,Istanbul,Marmara,Turkey,Cloud,13
-2020,Cloud Disaster Recovery,8/15/2023,8/28/2023,6000,Completed,Izmir,Izmir,Turkey,Cloud,13
-2021,Cloud SaaS Solutions,9/15/2023,9/28/2023,5500,Active,Ankara,Ankara,Turkey,Cloud,13
-2022,Cloud Virtualization,10/15/2023,10/28/2023,4500,Completed,Istanbul,Marmara,Turkey,Cloud,13
-2023,Cloud Data Storage,11/15/2023,11/28/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,13
-2024,Cloud Software Solutions,12/15/2023,12/28/2023,5500,Active,Ankara,Ankara,Turkey,Cloud,13
-2025,Cloud Application Management,1/1/2023,1/14/2023,5000,Completed,Istanbul,Marmara,Turkey,Cloud,13
-2026,Cloud Automation Services,2/1/2023,2/14/2023,4500,Completed,Izmir,Izmir,Turkey,Cloud,13
-2027,Cloud Hosting with Security,3/1/2023,3/14/2023,5500,Completed,Ankara,Ankara,Turkey,Cloud,13
-2028,Cloud Integration Solutions,4/1/2023,4/14/2023,4000,Completed,Istanbul,Marmara,Turkey,Cloud,13
-2029,Cloud Security & Compliance,5/1/2023,5/14/2023,6000,Completed,Izmir,Izmir,Turkey,Cloud,13
-2030,Private Cloud Storage,6/1/2023,6/14/2023,5000,Active,Ankara,Ankara,Turkey,Cloud,13
-3001,Network Firewall,1/1/2023,1/15/2023,4000,Completed,Istanbul,Marmara,Turkey,Security,14
-3002,Antivirus Protection,2/1/2023,2/14/2023,1500,Completed,Izmir,Izmir,Turkey,Security,13
-3003,Security Monitoring,3/1/2023,3/14/2023,3500,Completed,Ankara,Ankara,Turkey,Security,13
-3004,Endpoint Protection,4/1/2023,4/14/2023,2500,Completed,Istanbul,Marmara,Turkey,Security,13
-3005,Cloud Security,5/1/2023,5/14/2023,4000,Completed,Izmir,Izmir,Turkey,Security,13
-3006,Network Security,6/1/2023,6/14/2023,5000,Completed,Ankara,Ankara,Turkey,Security,13
-3007,Intrusion Detection,7/1/2023,7/14/2023,4500,Completed,Istanbul,Marmara,Turkey,Security,13
-3008,VPN Service,8/1/2023,8/14/2023,3000,Completed,Izmir,Izmir,Turkey,Security,13
-3009,Data Encryption,9/1/2023,9/14/2023,3500,Completed,Ankara,Ankara,Turkey,Security,13
-3010,Threat Detection,10/1/2023,10/14/2023,4000,Completed,Istanbul,Marmara,Turkey,Security,13
-3011,Mobile Security,11/1/2023,11/14/2023,2500,Completed,Izmir,Izmir,Turkey,Security,13
-3012,Security Audit,12/1/2023,12/14/2023,5500,Completed,Ankara,Ankara,Turkey,Security,13
-3013,Fire Detection,1/15/2023,1/29/2023,3500,Completed,Istanbul,Marmara,Turkey,Security,14
-3014,Access Control,2/15/2023,2/28/2023,5000,Completed,Izmir,Izmir,Turkey,Security,13
-3015,Video Surveillance,3/15/2023,3/28/2023,6000,Completed,Ankara,Ankara,Turkey,Security,13
-3016,Identity Protection,4/15/2023,4/28/2023,4500,Active,Istanbul,Marmara,Turkey,Security,13
-3017,Security Consulting,5/15/2023,5/28/2023,5500,Completed,Izmir,Izmir,Turkey,Security,13
-3018,Wi-Fi Security,6/15/2023,6/28/2023,3000,Completed,Ankara,Ankara,Turkey,Security,13
-3019,Phishing Protection,7/15/2023,7/28/2023,3500,Completed,Istanbul,Marmara,Turkey,Security,13
-3020,Penetration Testing,8/15/2023,8/28/2023,4500,Completed,Izmir,Izmir,Turkey,Security,13
-3021,Cloud Access Security,9/15/2023,9/28/2023,5000,Completed,Ankara,Ankara,Turkey,Security,13
-3022,Compliance Management,10/15/2023,10/28/2023,5500,Completed,Istanbul,Marmara,Turkey,Security,13
-3023,Zero Trust Security,11/15/2023,11/28/2023,6000,Active,Izmir,Izmir,Turkey,Security,13
-3024,Security Patching,12/15/2023,12/28/2023,3500,Completed,Ankara,Ankara,Turkey,Security,13
-3025,Cloud Threat Intelligence,1/1/2023,1/14/2023,4000,Completed,Istanbul,Marmara,Turkey,Security,13
-3026,Advanced Malware Protection,2/1/2023,2/14/2023,5000,Completed,Izmir,Izmir,Turkey,Security,13
-3027,Mobile Device Management,3/1/2023,3/14/2023,4500,Completed,Ankara,Ankara,Turkey,Security,13
-3028,Endpoint Detection,4/1/2023,4/14/2023,3500,Completed,Istanbul,Marmara,Turkey,Security,13
-3029,Data Loss Prevention,5/1/2023,5/14/2023,5500,Completed,Izmir,Izmir,Turkey,Security,13
-3030,Security Incident Response,6/1/2023,6/14/2023,4000,Active,Ankara,Ankara,Turkey,Security,13
-5001,Enterprise Network Setup,1/1/2023,1/15/2023,2000,Completed,Istanbul,Marmara,Turkey,Network Management,14
-5002,Local Area Network (LAN) Setup,2/1/2023,2/5/2023,800,Completed,Izmir,Izmir,Turkey,Network Management,4
-5003,Wide Area Network (WAN) Management,3/1/2023,3/20/2023,1500,Completed,Ankara,Ankara,Turkey,Network Management,19
-5004,Corporate VPN Configuration,4/1/2023,4/10/2023,1000,Completed,Istanbul,Marmara,Turkey,Network Management,9
-5005,Network Performance Monitoring,5/1/2023,5/10/2023,600,Completed,Izmir,Izmir,Turkey,Network Management,9
-5006,Wi-Fi Network Expansion,6/1/2023,6/7/2023,500,Completed,Ankara,Ankara,Turkey,Network Management,6
-5007,Internet Backbone Setup,7/1/2023,7/15/2023,3000,Completed,Istanbul,Marmara,Turkey,Network Management,14
-5008,Cloud Network Management,8/1/2023,8/10/2023,1200,Completed,Izmir,Izmir,Turkey,Network Management,9
-5009,Data Center Network Setup,9/1/2023,9/10/2023,2500,Completed,Ankara,Ankara,Turkey,Network Management,9
-5010,Network Load Balancing,10/1/2023,10/10/2023,1500,Completed,Istanbul,Marmara,Turkey,Network Management,9
-5011,Corporate Wi-Fi System Installation,11/1/2023,11/7/2023,700,Completed,Izmir,Izmir,Turkey,Network Management,6
-5012,Remote Network Support,12/1/2023,12/10/2023,500,Completed,Ankara,Ankara,Turkey,Network Management,9
-5013,Network Security Configuration,1/2/2023,1/10/2023,1100,Completed,Istanbul,Marmara,Turkey,Network Management,8
-5014,Enterprise Wireless Network,2/2/2023,2/8/2023,1200,Completed,Izmir,Izmir,Turkey,Network Management,6
-5015,4G LTE Network Management,3/2/2023,3/12/2023,800,Completed,Ankara,Ankara,Turkey,Network Management,10
-5016,Managed Router Installation,4/2/2023,4/6/2023,650,Completed,Istanbul,Marmara,Turkey,Network Management,4
-5017,Network Disaster Recovery,5/2/2023,5/8/2023,2000,Completed,Izmir,Izmir,Turkey,Network Management,6
-5018,LAN-to-WAN Integration,6/2/2023,6/8/2023,900,Completed,Ankara,Ankara,Turkey,Network Management,6
-5019,Video Conferencing Network,7/2/2023,7/8/2023,700,Completed,Istanbul,Marmara,Turkey,Network Management,6
-5020,Private Network Installation,8/2/2023,8/9/2023,2500,Completed,Izmir,Izmir,Turkey,Network Management,7
-5021,Office Network Optimization,9/2/2023,9/8/2023,800,Completed,Ankara,Ankara,Turkey,Network Management,6
-5022,Mobile Network Support,10/2/2023,10/6/2023,500,Completed,Istanbul,Marmara,Turkey,Network Management,4
-5023,High-Speed Network Setup,11/2/2023,11/8/2023,1200,Completed,Izmir,Izmir,Turkey,Network Management,6
-5024,Wireless LAN Expansion,12/2/2023,12/8/2023,850,Completed,Ankara,Ankara,Turkey,Network Management,6
-5025,Cloud Network Security,1/3/2023,1/7/2023,1100,Completed,Istanbul,Marmara,Turkey,Network Management,4
-6001,Mobile App Development,1/10/2023,2/10/2023,2500,Completed,Istanbul,Marmara,Turkey,Software Development,31
-6002,Web Portal Development,2/5/2023,2/25/2023,3000,Completed,Ankara,Ankara,Turkey,Software Development,20
-6003,Custom CRM System,3/1/2023,3/15/2023,2000,Completed,Izmir,Izmir,Turkey,Software Development,14
-6004,Payment Gateway Integration,4/1/2023,4/10/2023,1500,Completed,Antalya,Antalya,Turkey,Software Development,9
-6005,Android App Development,5/1/2023,5/20/2023,2200,Completed,Bursa,Bursa,Turkey,Software Development,19
-6006,E-commerce Platform Development,6/5/2023,6/25/2023,3500,Completed,Konya,Konya,Turkey,Software Development,20
-6007,Internal Tool Development,7/1/2023,7/10/2023,1000,Completed,Istanbul,Marmara,Turkey,Software Development,9
-6008,Hybrid App Development,8/5/2023,8/25/2023,2800,Completed,Izmir,Izmir,Turkey,Software Development,20
-6009,Website Redesign,9/1/2023,9/10/2023,1200,Completed,Ankara,Ankara,Turkey,Software Development,9
-6010,App UI/UX Design,10/1/2023,10/10/2023,1500,Completed,Bursa,Bursa,Turkey,Software Development,9
-6011,Enterprise Resource Planning (ERP),11/1/2023,11/20/2023,4000,Completed,Antalya,Antalya,Turkey,Software Development,19
-6012,Inventory Management System,12/1/2023,12/15/2023,2000,Completed,Istanbul,Marmara,Turkey,Software Development,14
-6013,Cloud App Development,1/15/2023,2/5/2023,2700,Completed,Izmir,Izmir,Turkey,Software Development,21
-6014,Real-time Messaging App,2/10/2023,2/25/2023,2100,Completed,Ankara,Ankara,Turkey,Software Development,15
-6015,Mobile Game Development,3/10/2023,3/30/2023,3000,Completed,Antalya,Antalya,Turkey,Software Development,20
-6016,Social Media Web App,4/10/2023,4/30/2023,3500,Completed,Istanbul,Marmara,Turkey,Software Development,20
-6017,Dashboard Development,5/15/2023,5/25/2023,1800,Completed,Izmir,Izmir,Turkey,Software Development,10
-6018,Hotel Booking System,6/15/2023,6/30/2023,2500,Completed,Bursa,Bursa,Turkey,Software Development,15
-6019,Custom Mobile App,7/10/2023,7/25/2023,2200,Completed,Antalya,Antalya,Turkey,Software Development,15
-6020,Web Scraping Tool,8/15/2023,8/25/2023,1300,Completed,Istanbul,Marmara,Turkey,Software Development,10
-6021,Task Management App,9/5/2023,9/15/2023,1500,Completed,Izmir,Izmir,Turkey,Software Development,10
-6022,Health Tracker App,10/5/2023,10/15/2023,1700,Completed,Bursa,Bursa,Turkey,Software Development,10
-6023,Online Learning Platform,11/10/2023,11/25/2023,3500,Completed,Antalya,Antalya,Turkey,Software Development,15
-6024,CRM App Development,12/1/2023,12/15/2023,2200,Completed,Istanbul,Marmara,Turkey,Software Development,14
-6025,Booking App Development,1/5/2023,1/20/2023,1900,Completed,Izmir,Izmir,Turkey,Software Development,15
-4001,Phone Screen Repair,1/1/2023,1/3/2023,150,Completed,Istanbul,Marmara,Turkey,Repair,2
-4002,Laptop Hard Drive Replacement,2/1/2023,2/3/2023,250,Completed,Izmir,Izmir,Turkey,Repair,2
-4003,Software Reinstallation,3/1/2023,3/2/2023,80,Completed,Ankara,Ankara,Turkey,Repair,1
-4004,Phone Battery Replacement,4/1/2023,4/3/2023,120,Completed,Istanbul,Marmara,Turkey,Repair,2
-4005,PC RAM Upgrade,5/1/2023,5/3/2023,200,Completed,Izmir,Izmir,Turkey,Repair,2
-4006,Tablet Screen Repair,6/1/2023,6/4/2023,180,Completed,Ankara,Ankara,Turkey,Repair,3
-4007,MacBook Key Replacement,7/1/2023,7/2/2023,100,Completed,Istanbul,Marmara,Turkey,Repair,1
-4008,Smartphone Software Update,8/1/2023,8/2/2023,50,Completed,Izmir,Izmir,Turkey,Repair,1
-4009,PC Software Optimization,9/1/2023,9/2/2023,75,Completed,Ankara,Ankara,Turkey,Repair,1
-4010,Laptop Battery Replacement,10/1/2023,10/3/2023,140,Completed,Istanbul,Marmara,Turkey,Repair,2
-4011,Smartwatch Screen Repair,11/1/2023,11/2/2023,100,Completed,Izmir,Izmir,Turkey,Repair,1
-4012,Phone Speaker Repair,12/1/2023,12/2/2023,90,Completed,Ankara,Ankara,Turkey,Repair,1
-4013,Software Bug Fix,1/2/2023,1/4/2023,60,Completed,Istanbul,Marmara,Turkey,Repair,2
-4014,Laptop Screen Replacement,2/1/2023,2/4/2023,300,Completed,Izmir,Izmir,Turkey,Repair,3
-4015,Tablet Battery Replacement,3/1/2023,3/3/2023,130,Completed,Ankara,Ankara,Turkey,Repair,2
-4016,Phone Camera Replacement,4/1/2023,4/3/2023,110,Completed,Istanbul,Marmara,Turkey,Repair,2
-4017,PC Hard Drive Repair,5/1/2023,5/2/2023,180,Completed,Izmir,Izmir,Turkey,Repair,1
-4018,Smartphone Screen Repair,6/1/2023,6/3/2023,160,Completed,Ankara,Ankara,Turkey,Repair,2
-4019,Laptop Upgrade,7/1/2023,7/3/2023,250,Completed,Istanbul,Marmara,Turkey,Repair,2
-4020,Tablet Software Fix,8/1/2023,8/2/2023,70,Completed,Izmir,Izmir,Turkey,Repair,1
-4021,Smartphone Factory Reset,9/1/2023,9/2/2023,60,Completed,Ankara,Ankara,Turkey,Repair,1
-4022,Phone Charger Repair,10/1/2023,10/3/2023,80,Completed,Istanbul,Marmara,Turkey,Repair,2
-4023,Laptop Software Reinstallation,11/1/2023,11/3/2023,90,Completed,Izmir,Izmir,Turkey,Repair,2
-4024,PC Power Supply Repair,12/1/2023,12/3/2023,200,Completed,Ankara,Ankara,Turkey,Repair,2
-4025,Smartphone Hardware Fix,1/3/2023,1/4/2023,100,Completed,Istanbul,Marmara,Turkey,Repair,1
-4026,Laptop Keyboard Repair,2/3/2023,2/4/2023,150,Completed,Izmir,Izmir,Turkey,Repair,1
-4027,Phone Software Repair,3/3/2023,3/4/2023,50,Completed,Ankara,Ankara,Turkey,Repair,1
-4028,PC Antivirus Fix,4/3/2023,4/4/2023,60,Completed,Istanbul,Marmara,Turkey,Repair,1
-4029,Tablet Speaker Repair,5/3/2023,5/4/2023,80,Completed,Izmir,Izmir,Turkey,Repair,1
-4030,Smartphone Update,6/3/2023,6/4/2023,40,Completed,Ankara,Ankara,Turkey,Repair,1
-4031,Laptop Graphic Card Fix,7/3/2023,7/5/2023,220,Completed,Istanbul,Marmara,Turkey,Repair,2
-4032,PC Software Update,8/3/2023,8/4/2023,50,Completed,Izmir,Izmir,Turkey,Repair,1
-4033,Phone Back Cover Repair,9/3/2023,9/4/2023,70,Completed,Ankara,Ankara,Turkey,Repair,1
-4034,Tablet Camera Replacement,10/3/2023,10/4/2023,120,Completed,Istanbul,Marmara,Turkey,Repair,1
-4035,PC RAM Issue Fix,11/3/2023,11/4/2023,150,Completed,Izmir,Izmir,Turkey,Repair,1
-4036,Smartphone Charging Port Repair,12/3/2023,12/4/2023,100,Completed,Ankara,Ankara,Turkey,Repair,1
-4037,Laptop Audio Jack Repair,1/4/2023,1/5/2023,90,Completed,Istanbul,Marmara,Turkey,Repair,1
-4038,Tablet Repair (Miscellaneous),2/4/2023,2/5/2023,130,Completed,Izmir,Izmir,Turkey,Repair,1
-4039,Phone Water Damage Fix,3/4/2023,3/5/2023,160,Completed,Ankara,Ankara,Turkey,Repair,1
-4040,PC Overheating Issue Fix,4/4/2023,4/6/2023,180,Completed,Istanbul,Marmara,Turkey,Repair,2
-8001,Antivirus Repair,1/10/2023,1/15/2023,100,Completed,Istanbul,Marmara,Turkey,Repair,5
-8002,Operating System Reinstallation,2/1/2023,2/5/2023,120,Completed,Ankara,Ankara,Turkey,Repair,4
-8003,Antivirus Update,3/5/2023,3/10/2023,80,Completed,Izmir,Izmir,Turkey,Repair,5
-8004,Malware Removal,4/1/2023,4/10/2023,150,Completed,Antalya,Antalya,Turkey,Repair,9
-8005,Software Configuration,5/1/2023,5/5/2023,90,Completed,Bursa,Bursa,Turkey,Repair,4
-8006,Application Update,6/10/2023,6/15/2023,50,Completed,Konya,Konya,Turkey,Repair,5
-8007,Antivirus Removal,7/1/2023,7/5/2023,60,Completed,Istanbul,Marmara,Turkey,Repair,4
-8008,Driver Update,8/15/2023,8/20/2023,70,Completed,Izmir,Izmir,Turkey,Repair,5
-8009,App Reinstallation,9/1/2023,9/5/2023,110,Completed,Ankara,Ankara,Turkey,Repair,4
-8010,Software Upgrade,10/5/2023,10/10/2023,140,Completed,Antalya,Antalya,Turkey,Repair,5
-8011,Software Troubleshooting,11/1/2023,11/7/2023,100,Completed,Bursa,Bursa,Turkey,Repair,6
-8012,Software Update,12/1/2023,12/5/2023,85,Completed,Konya,Konya,Turkey,Repair,4
-8013,Game Patch Update,1/15/2023,1/20/2023,60,Completed,Istanbul,Marmara,Turkey,Repair,5
-8014,Operating System Repair,2/10/2023,2/15/2023,120,Completed,Izmir,Izmir,Turkey,Repair,5
-8015,Data Recovery Software,3/20/2023,3/25/2023,180,Completed,Antalya,Antalya,Turkey,Repair,5
-8016,Email Client Setup,4/10/2023,4/15/2023,80,Completed,Bursa,Bursa,Turkey,Repair,5
-8017,Server Software Configuration,5/1/2023,5/7/2023,220,Completed,Konya,Konya,Turkey,Repair,6
-8018,Database Repair,6/5/2023,6/10/2023,200,Completed,Istanbul,Marmara,Turkey,Repair,5
-8019,Software Compatibility Fix,7/10/2023,7/15/2023,130,Completed,Izmir,Izmir,Turkey,Repair,5
-8020,Desktop Software Installation,8/1/2023,8/5/2023,90,Completed,Ankara,Ankara,Turkey,Repair,4
-8021,Web Browser Update,9/1/2023,9/5/2023,70,Completed,Antalya,Antalya,Turkey,Repair,4
-8022,Security Software Repair,10/1/2023,10/7/2023,160,Completed,Bursa,Bursa,Turkey,Repair,6
-8023,Software Licensing Issue,11/1/2023,11/10/2023,50,Completed,Konya,Konya,Turkey,Repair,9
-8024,Anti-spyware Repair,12/1/2023,12/10/2023,80,Completed,Istanbul,Marmara,Turkey,Repair,9
-8025,Photo Editing Software Repair,1/10/2023,1/15/2023,100,Completed,Izmir,Izmir,Turkey,Repair,5
-8026,Document Management Software Repair,2/1/2023,2/5/2023,95,Completed,Antalya,Antalya,Turkey,Repair,4
-8027,Video Editing Software Repair,3/15/2023,3/20/2023,150,Completed,Bursa,Bursa,Turkey,Repair,5
-8028,Virtual Machine Repair,4/10/2023,4/15/2023,180,Completed,Konya,Konya,Turkey,Repair,5
-8029,Network Management Software Repair,5/1/2023,5/7/2023,210,Completed,Istanbul,Marmara,Turkey,Repair,6
-8030,Software Configuration Repair,6/5/2023,6/10/2023,130,Completed,Izmir,Izmir,Turkey,Repair,5
-7001,Hard Drive Repair,1/10/2023,1/15/2023,150,Completed,Istanbul,Marmara,Turkey,Repair,5
-7002,Keyboard Replacement,2/5/2023,2/10/2023,50,Completed,Ankara,Ankara,Turkey,Repair,5
-7003,Graphics Card Repair,3/1/2023,3/5/2023,200,Completed,Izmir,Izmir,Turkey,Repair,4
-7004,Power Supply Repair,4/1/2023,4/10/2023,120,Completed,Antalya,Antalya,Turkey,Repair,9
-7005,Laptop Screen Replacement,5/1/2023,5/10/2023,180,Completed,Bursa,Bursa,Turkey,Repair,9
-7006,Processor Repair,6/10/2023,6/20/2023,250,Completed,Konya,Konya,Turkey,Repair,10
-7007,Hard Drive Repair,7/1/2023,7/10/2023,140,Completed,Istanbul,Marmara,Turkey,Repair,9
-7008,RAM Replacement,8/5/2023,8/12/2023,100,Completed,Izmir,Izmir,Turkey,Repair,7
-7009,Graphics Card Replacement,9/1/2023,9/5/2023,250,Completed,Ankara,Ankara,Turkey,Repair,4
-7010,CPU Fan Repair,10/1/2023,10/5/2023,75,Completed,Antalya,Antalya,Turkey,Repair,4
-7011,Hard Drive Repair,11/1/2023,11/7/2023,130,Completed,Bursa,Bursa,Turkey,Repair,6
-7012,SSD Replacement,12/1/2023,12/5/2023,180,Completed,Konya,Konya,Turkey,Repair,4
-7013,Monitor Repair,1/15/2023,1/25/2023,220,Completed,Istanbul,Marmara,Turkey,Repair,10
-7014,Laptop Motherboard Repair,2/1/2023,2/10/2023,300,Completed,Izmir,Izmir,Turkey,Repair,9
-7015,Hard Drive Repair,3/10/2023,3/20/2023,150,Completed,Antalya,Antalya,Turkey,Repair,10
-7016,Power Supply Replacement,4/15/2023,4/20/2023,110,Completed,Bursa,Bursa,Turkey,Repair,5
-7017,CPU Repair,5/10/2023,5/15/2023,220,Completed,Konya,Konya,Turkey,Repair,5
-7018,Graphics Card Repair,6/1/2023,6/10/2023,250,Completed,Istanbul,Marmara,Turkey,Repair,9
-7019,Keyboard Repair,7/5/2023,7/15/2023,60,Completed,Izmir,Izmir,Turkey,Repair,10
-7020,Monitor Replacement,8/1/2023,8/10/2023,220,Completed,Ankara,Ankara,Turkey,Repair,9
-7021,SSD Repair,9/10/2023,9/15/2023,180,Completed,Antalya,Antalya,Turkey,Repair,5
-7022,Laptop Battery Replacement,10/5/2023,10/15/2023,80,Completed,Bursa,Bursa,Turkey,Repair,10
-7023,Hard Drive Repair,11/1/2023,11/10/2023,140,Completed,Konya,Konya,Turkey,Repair,9
-7024,SSD Repair,12/10/2023,12/20/2023,170,Completed,Istanbul,Marmara,Turkey,Repair,10
-7025,Laptop Motherboard Repair,1/20/2023,1/30/2023,280,Completed,Izmir,Izmir,Turkey,Repair,10
-7026,Graphics Card Repair,2/15/2023,2/25/2023,250,Completed,Antalya,Antalya,Turkey,Repair,10
-7027,CPU Cooling Fan Repair,3/5/2023,3/15/2023,95,Completed,Bursa,Bursa,Turkey,Repair,10
-7028,SSD Replacement,4/1/2023,4/10/2023,180,Completed,Konya,Konya,Turkey,Repair,9
-7029,Laptop Display Replacement,5/15/2023,5/25/2023,200,Completed,Istanbul,Marmara,Turkey,Repair,10
-7030,Hard Drive Repair,6/5/2023,6/15/2023,150,Completed,Izmir,Izmir,Turkey,Repair,10
+ServiceID,Name,StartDate,EndDate,Price,Status,City,State,Country,Cloud,Security,Repair,Network,SoftwareDev,Duration,CompanyID,DepartmentNo,,
+2001,Cloud Hosting,1/1/2023,1/14/2023,5000,Completed,Istanbul,Marmara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2002,Cloud Backup Services,2/1/2023,2/13/2023,4500,Completed,Izmir,Izmir,Turkey,Cloud,null,null,null,null,12,1,2,,
+2003,Cloud Storage,3/1/2023,3/14/2023,3500,Completed,Ankara,Ankara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2004,Cloud Application Hosting,4/1/2023,4/13/2023,4000,Completed,Istanbul,Marmara,Turkey,Cloud,null,null,null,null,12,1,2,,
+2005,Cloud Security Solutions,5/1/2023,5/14/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,null,null,null,null,13,1,2,,
+2006,Private Cloud Solutions,6/1/2023,6/14/2023,4500,Completed,Ankara,Ankara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2007,Cloud Platform Development,7/1/2023,7/14/2023,6000,Completed,Istanbul,Marmara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2008,Disaster Recovery Cloud,8/1/2023,8/14/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,null,null,null,null,13,1,2,,
+2009,Cloud Data Analytics,9/1/2023,9/14/2023,5500,Completed,Ankara,Ankara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2010,Cloud DevOps Services,10/1/2023,10/14/2023,4500,Completed,Istanbul,Marmara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2011,Cloud Migration Solutions,11/1/2023,11/14/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,null,null,null,null,13,1,2,,
+2012,Cloud API Integration,12/1/2023,12/14/2023,4000,Completed,Ankara,Ankara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2013,Hybrid Cloud Solutions,1/15/2023,1/29/2023,4500,Completed,Istanbul,Marmara,Turkey,Cloud,null,null,null,null,14,1,2,,
+2014,Cloud Infrastructure Management,2/15/2023,2/28/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,null,null,null,null,13,1,2,,
+2015,Multi-Cloud Solutions,3/15/2023,3/28/2023,5500,Completed,Ankara,Ankara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2016,Cloud Computing Solutions,4/15/2023,4/28/2023,6000,Active,Istanbul,Marmara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2017,Cloud Database Solutions,5/15/2023,5/28/2023,4500,Completed,Izmir,Izmir,Turkey,Cloud,null,null,null,null,13,1,2,,
+2018,Cloud Storage for Enterprises,6/15/2023,6/28/2023,4000,Completed,Ankara,Ankara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2019,Cloud-Based Business Solutions,7/15/2023,7/28/2023,5000,Active,Istanbul,Marmara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2020,Cloud Disaster Recovery,8/15/2023,8/28/2023,6000,Completed,Izmir,Izmir,Turkey,Cloud,null,null,null,null,13,1,2,,
+2021,Cloud SaaS Solutions,9/15/2023,9/28/2023,5500,Active,Ankara,Ankara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2022,Cloud Virtualization,10/15/2023,10/28/2023,4500,Completed,Istanbul,Marmara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2023,Cloud Data Storage,11/15/2023,11/28/2023,5000,Completed,Izmir,Izmir,Turkey,Cloud,null,null,null,null,13,1,2,,
+2024,Cloud Software Solutions,12/15/2023,12/28/2023,5500,Active,Ankara,Ankara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2025,Cloud Application Management,1/1/2023,1/14/2023,5000,Completed,Istanbul,Marmara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2026,Cloud Automation Services,2/1/2023,2/14/2023,4500,Completed,Izmir,Izmir,Turkey,Cloud,null,null,null,null,13,1,2,,
+2027,Cloud Hosting with Security,3/1/2023,3/14/2023,5500,Completed,Ankara,Ankara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2028,Cloud Integration Solutions,4/1/2023,4/14/2023,4000,Completed,Istanbul,Marmara,Turkey,Cloud,null,null,null,null,13,1,2,,
+2029,Cloud Security & Compliance,5/1/2023,5/14/2023,6000,Completed,Izmir,Izmir,Turkey,Cloud,null,null,null,null,13,1,2,,
+2030,Private Cloud Storage,6/1/2023,6/14/2023,5000,Active,Ankara,Ankara,Turkey,Cloud,null,null,null,null,13,1,2,,
+3001,Network Firewall,1/1/2023,1/15/2023,4000,Completed,Istanbul,Marmara,Turkey,null,Security,null,null,null,14,1,6,,
+3002,Antivirus Protection,2/1/2023,2/14/2023,1500,Completed,Izmir,Izmir,Turkey,null,Security,null,null,null,13,1,6,,
+3003,Security Monitoring,3/1/2023,3/14/2023,3500,Completed,Ankara,Ankara,Turkey,null,Security,null,null,null,13,1,6,,
+3004,Endpoint Protection,4/1/2023,4/14/2023,2500,Completed,Istanbul,Marmara,Turkey,null,Security,null,null,null,13,1,6,,
+3005,Cloud Security,5/1/2023,5/14/2023,4000,Completed,Izmir,Izmir,Turkey,null,Security,null,null,null,13,1,6,,
+3006,Network Security,6/1/2023,6/14/2023,5000,Completed,Ankara,Ankara,Turkey,null,Security,null,null,null,13,1,6,,
+3007,Intrusion Detection,7/1/2023,7/14/2023,4500,Completed,Istanbul,Marmara,Turkey,null,Security,null,null,null,13,1,6,,
+3008,VPN Service,8/1/2023,8/14/2023,3000,Completed,Izmir,Izmir,Turkey,null,Security,null,null,null,13,1,6,,
+3009,Data Encryption,9/1/2023,9/14/2023,3500,Completed,Ankara,Ankara,Turkey,null,Security,null,null,null,13,1,6,,
+3010,Threat Detection,10/1/2023,10/14/2023,4000,Completed,Istanbul,Marmara,Turkey,null,Security,null,null,null,13,1,6,,
+3011,Mobile Security,11/1/2023,11/14/2023,2500,Completed,Izmir,Izmir,Turkey,null,Security,null,null,null,13,1,6,,
+3012,Security Audit,12/1/2023,12/14/2023,5500,Completed,Ankara,Ankara,Turkey,null,Security,null,null,null,13,1,6,,
+3013,Fire Detection,1/15/2023,1/29/2023,3500,Completed,Istanbul,Marmara,Turkey,null,Security,null,null,null,14,1,6,,
+3014,Access Control,2/15/2023,2/28/2023,5000,Completed,Izmir,Izmir,Turkey,null,Security,null,null,null,13,1,6,,
+3015,Video Surveillance,3/15/2023,3/28/2023,6000,Completed,Ankara,Ankara,Turkey,null,Security,null,null,null,13,1,6,,
+3016,Identity Protection,4/15/2023,4/28/2023,4500,Active,Istanbul,Marmara,Turkey,null,Security,null,null,null,13,1,6,,
+3017,Security Consulting,5/15/2023,5/28/2023,5500,Completed,Izmir,Izmir,Turkey,null,Security,null,null,null,13,1,6,,
+3018,Wi-Fi Security,6/15/2023,6/28/2023,3000,Completed,Ankara,Ankara,Turkey,null,Security,null,null,null,13,1,6,,
+3019,Phishing Protection,7/15/2023,7/28/2023,3500,Completed,Istanbul,Marmara,Turkey,null,Security,null,null,null,13,1,6,,
+3020,Penetration Testing,8/15/2023,8/28/2023,4500,Completed,Izmir,Izmir,Turkey,null,Security,null,null,null,13,1,6,,
+3021,Cloud Access Security,9/15/2023,9/28/2023,5000,Completed,Ankara,Ankara,Turkey,null,Security,null,null,null,13,1,6,,
+3022,Compliance Management,10/15/2023,10/28/2023,5500,Completed,Istanbul,Marmara,Turkey,null,Security,null,null,null,13,1,6,,
+3023,Zero Trust Security,11/15/2023,11/28/2023,6000,Active,Izmir,Izmir,Turkey,null,Security,null,null,null,13,1,6,,
+3024,Security Patching,12/15/2023,12/28/2023,3500,Completed,Ankara,Ankara,Turkey,null,Security,null,null,null,13,1,6,,
+3025,Cloud Threat Intelligence,1/1/2023,1/14/2023,4000,Completed,Istanbul,Marmara,Turkey,null,Security,null,null,null,13,1,6,,
+3026,Advanced Malware Protection,2/1/2023,2/14/2023,5000,Completed,Izmir,Izmir,Turkey,null,Security,null,null,null,13,1,6,,
+3027,Mobile Device Management,3/1/2023,3/14/2023,4500,Completed,Ankara,Ankara,Turkey,null,Security,null,null,null,13,1,6,,
+3028,Endpoint Detection,4/1/2023,4/14/2023,3500,Completed,Istanbul,Marmara,Turkey,null,Security,null,null,null,13,1,6,,
+3029,Data Loss Prevention,5/1/2023,5/14/2023,5500,Completed,Izmir,Izmir,Turkey,null,Security,null,null,null,13,1,6,,
+3030,Security Incident Response,6/1/2023,6/14/2023,4000,Active,Ankara,Ankara,Turkey,null,Security,null,null,null,13,1,6,,
+5001,Enterprise Network Setup,1/1/2023,1/15/2023,2000,Completed,Istanbul,Marmara,Turkey,null,null,null,Network Management,null,14,1,3,,
+5002,Local Area Network (LAN) Setup,2/1/2023,2/5/2023,800,Completed,Izmir,Izmir,Turkey,null,null,null,Network Management,null,4,1,3,,
+5003,Wide Area Network (WAN) Management,3/1/2023,3/20/2023,1500,Completed,Ankara,Ankara,Turkey,null,null,null,Network Management,null,19,1,3,,
+5004,Corporate VPN Configuration,4/1/2023,4/10/2023,1000,Completed,Istanbul,Marmara,Turkey,null,null,null,Network Management,null,9,1,3,,
+5005,Network Performance Monitoring,5/1/2023,5/10/2023,600,Completed,Izmir,Izmir,Turkey,null,null,null,Network Management,null,9,1,3,,
+5006,Wi-Fi Network Expansion,6/1/2023,6/7/2023,500,Completed,Ankara,Ankara,Turkey,null,null,null,Network Management,null,6,1,3,,
+5007,Internet Backbone Setup,7/1/2023,7/15/2023,3000,Completed,Istanbul,Marmara,Turkey,null,null,null,Network Management,null,14,1,3,,
+5008,Cloud Network Management,8/1/2023,8/10/2023,1200,Completed,Izmir,Izmir,Turkey,null,null,null,Network Management,null,9,1,3,,
+5009,Data Center Network Setup,9/1/2023,9/10/2023,2500,Completed,Ankara,Ankara,Turkey,null,null,null,Network Management,null,9,1,3,,
+5010,Network Load Balancing,10/1/2023,10/10/2023,1500,Completed,Istanbul,Marmara,Turkey,null,null,null,Network Management,null,9,1,3,,
+5011,Corporate Wi-Fi System Installation,11/1/2023,11/7/2023,700,Completed,Izmir,Izmir,Turkey,null,null,null,Network Management,null,6,1,3,,
+5012,Remote Network Support,12/1/2023,12/10/2023,500,Completed,Ankara,Ankara,Turkey,null,null,null,Network Management,null,9,1,3,,
+5013,Network Security Configuration,1/2/2023,1/10/2023,1100,Completed,Istanbul,Marmara,Turkey,null,null,null,Network Management,null,8,1,3,,
+5014,Enterprise Wireless Network,2/2/2023,2/8/2023,1200,Completed,Izmir,Izmir,Turkey,null,null,null,Network Management,null,6,1,3,,
+5015,4G LTE Network Management,3/2/2023,3/12/2023,800,Completed,Ankara,Ankara,Turkey,null,null,null,Network Management,null,10,1,3,,
+5016,Managed Router Installation,4/2/2023,4/6/2023,650,Completed,Istanbul,Marmara,Turkey,null,null,null,Network Management,null,4,1,3,,
+5017,Network Disaster Recovery,5/2/2023,5/8/2023,2000,Completed,Izmir,Izmir,Turkey,null,null,null,Network Management,null,6,1,3,,
+5018,LAN-to-WAN Integration,6/2/2023,6/8/2023,900,Completed,Ankara,Ankara,Turkey,null,null,null,Network Management,null,6,1,3,,
+5019,Video Conferencing Network,7/2/2023,7/8/2023,700,Completed,Istanbul,Marmara,Turkey,null,null,null,Network Management,null,6,1,3,,
+5020,Private Network Installation,8/2/2023,8/9/2023,2500,Completed,Izmir,Izmir,Turkey,null,null,null,Network Management,null,7,1,3,,
+5021,Office Network Optimization,9/2/2023,9/8/2023,800,Completed,Ankara,Ankara,Turkey,null,null,null,Network Management,null,6,1,3,,
+5022,Mobile Network Support,10/2/2023,10/6/2023,500,Completed,Istanbul,Marmara,Turkey,null,null,null,Network Management,null,4,1,3,,
+5023,High-Speed Network Setup,11/2/2023,11/8/2023,1200,Completed,Izmir,Izmir,Turkey,null,null,null,Network Management,null,6,1,3,,
+5024,Wireless LAN Expansion,12/2/2023,12/8/2023,850,Completed,Ankara,Ankara,Turkey,null,null,null,Network Management,null,6,1,3,,
+5025,Cloud Network Security,1/3/2023,1/7/2023,1100,Completed,Istanbul,Marmara,Turkey,null,null,null,Network Management,null,4,1,3,,
+6001,Mobile App Development,1/10/2023,2/10/2023,2500,Completed,Istanbul,Marmara,Turkey,null,null,null,null,Software Development,,1,7,,
+6002,Web Portal Development,2/5/2023,2/25/2023,3000,Completed,Ankara,Ankara,Turkey,null,null,null,null,Software Development,,1,7,,
+6003,Custom CRM System,3/1/2023,3/15/2023,2000,Completed,Izmir,Izmir,Turkey,null,null,null,null,Software Development,,1,7,,
+6004,Payment Gateway Integration,4/1/2023,4/10/2023,1500,Completed,Antalya,Antalya,Turkey,null,null,null,null,Software Development,,1,7,,
+6005,Android App Development,5/1/2023,5/20/2023,2200,Completed,Bursa,Bursa,Turkey,null,null,null,null,Software Development,,1,7,,
+6006,E-commerce Platform Development,6/5/2023,6/25/2023,3500,Completed,Konya,Konya,Turkey,null,null,null,null,Software Development,,1,7,,
+6007,Internal Tool Development,7/1/2023,7/10/2023,1000,Completed,Istanbul,Marmara,Turkey,null,null,null,null,Software Development,,1,7,,
+6008,Hybrid App Development,8/5/2023,8/25/2023,2800,Completed,Izmir,Izmir,Turkey,null,null,null,null,Software Development,,1,7,,
+6009,Website Redesign,9/1/2023,9/10/2023,1200,Completed,Ankara,Ankara,Turkey,null,null,null,null,Software Development,,1,7,,
+6010,App UI/UX Design,10/1/2023,10/10/2023,1500,Completed,Bursa,Bursa,Turkey,null,null,null,null,Software Development,,1,7,,
+6011,Enterprise Resource Planning (ERP),11/1/2023,11/20/2023,4000,Completed,Antalya,Antalya,Turkey,null,null,null,null,Software Development,,1,7,,
+6012,Inventory Management System,12/1/2023,12/15/2023,2000,Completed,Istanbul,Marmara,Turkey,null,null,null,null,Software Development,,1,7,,
+6013,Cloud App Development,1/15/2023,2/5/2023,2700,Completed,Izmir,Izmir,Turkey,null,null,null,null,Software Development,,1,7,,
+6014,Real-time Messaging App,2/10/2023,2/25/2023,2100,Completed,Ankara,Ankara,Turkey,null,null,null,null,Software Development,,1,7,,
+6015,Mobile Game Development,3/10/2023,3/30/2023,3000,Completed,Antalya,Antalya,Turkey,null,null,null,null,Software Development,,1,7,,
+6016,Social Media Web App,4/10/2023,4/30/2023,3500,Completed,Istanbul,Marmara,Turkey,null,null,null,null,Software Development,,1,7,,
+6017,Dashboard Development,5/15/2023,5/25/2023,1800,Completed,Izmir,Izmir,Turkey,null,null,null,null,Software Development,,1,7,,
+6018,Hotel Booking System,6/15/2023,6/30/2023,2500,Completed,Bursa,Bursa,Turkey,null,null,null,null,Software Development,,1,7,,
+6019,Custom Mobile App,7/10/2023,7/25/2023,2200,Completed,Antalya,Antalya,Turkey,null,null,null,null,Software Development,,1,7,,
+6020,Web Scraping Tool,8/15/2023,8/25/2023,1300,Completed,Istanbul,Marmara,Turkey,null,null,null,null,Software Development,,1,7,,
+6021,Task Management App,9/5/2023,9/15/2023,1500,Completed,Izmir,Izmir,Turkey,null,null,null,null,Software Development,,1,7,,
+6022,Health Tracker App,10/5/2023,10/15/2023,1700,Completed,Bursa,Bursa,Turkey,null,null,null,null,Software Development,,1,7,,
+6023,Online Learning Platform,11/10/2023,11/25/2023,3500,Completed,Antalya,Antalya,Turkey,null,null,null,null,Software Development,,1,7,,
+6024,CRM App Development,12/1/2023,12/15/2023,2200,Completed,Istanbul,Marmara,Turkey,null,null,null,null,Software Development,,1,7,,
+6025,Booking App Development,1/5/2023,1/20/2023,1900,Completed,Izmir,Izmir,Turkey,null,null,null,null,Software Development,,1,7,,
+4001,Phone Screen Repair,1/1/2023,1/3/2023,150,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,2,1,5,,
+4002,Laptop Hard Drive Replacement,2/1/2023,2/3/2023,250,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,2,1,5,,
+4003,Software Reinstallation,3/1/2023,3/2/2023,80,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,1,1,4,,
+4004,Phone Battery Replacement,4/1/2023,4/3/2023,120,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,2,1,5,,
+4005,PC RAM Upgrade,5/1/2023,5/3/2023,200,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,2,1,5,,
+4006,Tablet Screen Repair,6/1/2023,6/4/2023,180,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,3,1,5,,
+4007,MacBook Key Replacement,7/1/2023,7/2/2023,100,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,1,1,5,,
+4008,Smartphone Software Update,8/1/2023,8/2/2023,50,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,1,1,4,,
+4009,PC Software Optimization,9/1/2023,9/2/2023,75,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,1,1,4,,
+4010,Laptop Battery Replacement,10/1/2023,10/3/2023,140,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,2,1,5,,
+4011,Smartwatch Screen Repair,11/1/2023,11/2/2023,100,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,1,1,5,,
+4012,Phone Speaker Repair,12/1/2023,12/2/2023,90,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,1,1,5,,
+4013,Software Bug Fix,1/2/2023,1/4/2023,60,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,2,1,4,,
+4014,Laptop Screen Replacement,2/1/2023,2/4/2023,300,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,3,1,5,,
+4015,Tablet Battery Replacement,3/1/2023,3/3/2023,130,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,2,1,5,,
+4016,Phone Camera Replacement,4/1/2023,4/3/2023,110,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,2,1,5,,
+4017,PC Hard Drive Repair,5/1/2023,5/2/2023,180,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,1,1,5,,
+4018,Smartphone Screen Repair,6/1/2023,6/3/2023,160,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,2,1,5,,
+4019,Laptop Upgrade,7/1/2023,7/3/2023,250,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,2,1,5,,
+4020,Tablet Software Fix,8/1/2023,8/2/2023,70,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,1,1,4,,
+4021,Smartphone Factory Reset,9/1/2023,9/2/2023,60,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,1,1,4,,
+4022,Phone Charger Repair,10/1/2023,10/3/2023,80,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,2,1,5,,
+4023,Laptop Software Reinstallation,11/1/2023,11/3/2023,90,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,2,1,4,,
+4024,PC Power Supply Repair,12/1/2023,12/3/2023,200,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,2,1,5,,
+4025,Smartphone Hardware Fix,1/3/2023,1/4/2023,100,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,1,1,5,,
+4026,Laptop Keyboard Repair,2/3/2023,2/4/2023,150,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,1,1,5,,
+4027,Phone Software Repair,3/3/2023,3/4/2023,50,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,1,1,4,,
+4028,PC Antivirus Fix,4/3/2023,4/4/2023,60,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,1,1,4,,
+4029,Tablet Speaker Repair,5/3/2023,5/4/2023,80,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,1,1,5,,
+4030,Smartphone Update,6/3/2023,6/4/2023,40,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,1,1,4,,
+4031,Laptop Graphic Card Fix,7/3/2023,7/5/2023,220,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,2,1,5,,
+4032,PC Software Update,8/3/2023,8/4/2023,50,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,1,1,4,,
+4033,Phone Back Cover Repair,9/3/2023,9/4/2023,70,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,1,1,5,,
+4034,Tablet Camera Replacement,10/3/2023,10/4/2023,120,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,1,1,5,,
+4035,PC RAM Issue Fix,11/3/2023,11/4/2023,150,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,1,1,5,,
+4036,Smartphone Charging Port Repair,12/3/2023,12/4/2023,100,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,1,1,5,,
+4037,Laptop Audio Jack Repair,1/4/2023,1/5/2023,90,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,1,1,5,,
+4038,Tablet Repair (Miscellaneous),2/4/2023,2/5/2023,130,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,1,1,5,,
+4039,Phone Water Damage Fix,3/4/2023,3/5/2023,160,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,1,1,5,,
+4040,PC Overheating Issue Fix,4/4/2023,4/6/2023,180,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,2,1,5,,
+8001,Antivirus Repair,1/10/2023,1/15/2023,100,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,5,1,4,,
+8002,Operating System Reinstallation,2/1/2023,2/5/2023,120,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,4,1,4,,
+8003,Antivirus Update,3/5/2023,3/10/2023,80,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,5,1,4,,
+8004,Malware Removal,4/1/2023,4/10/2023,150,Completed,Antalya,Antalya,Turkey,null,null,Repair,null,null,9,1,4,,
+8005,Software Configuration,5/1/2023,5/5/2023,90,Completed,Bursa,Bursa,Turkey,null,null,Repair,null,null,4,1,4,,
+8006,Application Update,6/10/2023,6/15/2023,50,Completed,Konya,Konya,Turkey,null,null,Repair,null,null,5,1,4,,
+8007,Antivirus Removal,7/1/2023,7/5/2023,60,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,4,1,4,,
+8008,Driver Update,8/15/2023,8/20/2023,70,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,5,1,4,,
+8009,App Reinstallation,9/1/2023,9/5/2023,110,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,4,1,4,,
+8010,Software Upgrade,10/5/2023,10/10/2023,140,Completed,Antalya,Antalya,Turkey,null,null,Repair,null,null,5,1,4,,
+8011,Software Troubleshooting,11/1/2023,11/7/2023,100,Completed,Bursa,Bursa,Turkey,null,null,Repair,null,null,6,1,4,,
+8012,Software Update,12/1/2023,12/5/2023,85,Completed,Konya,Konya,Turkey,null,null,Repair,null,null,4,1,4,,
+8013,Game Patch Update,1/15/2023,1/20/2023,60,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,5,1,4,,
+8014,Operating System Repair,2/10/2023,2/15/2023,120,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,5,1,4,,
+8015,Data Recovery Software,3/20/2023,3/25/2023,180,Completed,Antalya,Antalya,Turkey,null,null,Repair,null,null,5,1,4,,
+8016,Email Client Setup,4/10/2023,4/15/2023,80,Completed,Bursa,Bursa,Turkey,null,null,Repair,null,null,5,1,4,,
+8017,Server Software Configuration,5/1/2023,5/7/2023,220,Completed,Konya,Konya,Turkey,null,null,Repair,null,null,6,1,4,,
+8018,Database Repair,6/5/2023,6/10/2023,200,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,5,1,4,,
+8019,Software Compatibility Fix,7/10/2023,7/15/2023,130,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,5,1,4,,
+8020,Desktop Software Installation,8/1/2023,8/5/2023,90,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,4,1,4,,
+8021,Web Browser Update,9/1/2023,9/5/2023,70,Completed,Antalya,Antalya,Turkey,null,null,Repair,null,null,4,1,4,,
+8022,Security Software Repair,10/1/2023,10/7/2023,160,Completed,Bursa,Bursa,Turkey,null,null,Repair,null,null,6,1,4,,
+8023,Software Licensing Issue,11/1/2023,11/10/2023,50,Completed,Konya,Konya,Turkey,null,null,Repair,null,null,9,1,4,,
+8024,Anti-spyware Repair,12/1/2023,12/10/2023,80,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,9,1,4,,
+8025,Photo Editing Software Repair,1/10/2023,1/15/2023,100,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,5,1,4,,
+8026,Document Management Software Repair,2/1/2023,2/5/2023,95,Completed,Antalya,Antalya,Turkey,null,null,Repair,null,null,4,1,4,,
+8027,Video Editing Software Repair,3/15/2023,3/20/2023,150,Completed,Bursa,Bursa,Turkey,null,null,Repair,null,null,5,1,4,,
+8028,Virtual Machine Repair,4/10/2023,4/15/2023,180,Completed,Konya,Konya,Turkey,null,null,Repair,null,null,5,1,4,,
+8029,Network Management Software Repair,5/1/2023,5/7/2023,210,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,6,1,4,,
+8030,Software Configuration Repair,6/5/2023,6/10/2023,130,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,5,1,4,,
+7001,Hard Drive Repair,1/10/2023,1/15/2023,150,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,5,1,5,,
+7002,Keyboard Replacement,2/5/2023,2/10/2023,50,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,5,1,5,,
+7003,Graphics Card Repair,3/1/2023,3/5/2023,200,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,4,1,5,,
+7004,Power Supply Repair,4/1/2023,4/10/2023,120,Completed,Antalya,Antalya,Turkey,null,null,Repair,null,null,9,1,5,,
+7005,Laptop Screen Replacement,5/1/2023,5/10/2023,180,Completed,Bursa,Bursa,Turkey,null,null,Repair,null,null,9,1,5,,
+7006,Processor Repair,6/10/2023,6/20/2023,250,Completed,Konya,Konya,Turkey,null,null,Repair,null,null,10,1,5,,
+7007,Hard Drive Repair,7/1/2023,7/10/2023,140,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,9,1,5,,
+7008,RAM Replacement,8/5/2023,8/12/2023,100,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,7,1,5,,
+7009,Graphics Card Replacement,9/1/2023,9/5/2023,250,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,4,1,5,,
+7010,CPU Fan Repair,10/1/2023,10/5/2023,75,Completed,Antalya,Antalya,Turkey,null,null,Repair,null,null,4,1,5,,
+7011,Hard Drive Repair,11/1/2023,11/7/2023,130,Completed,Bursa,Bursa,Turkey,null,null,Repair,null,null,6,1,5,,
+7012,SSD Replacement,12/1/2023,12/5/2023,180,Completed,Konya,Konya,Turkey,null,null,Repair,null,null,4,1,5,,
+7013,Monitor Repair,1/15/2023,1/25/2023,220,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,10,1,5,,
+7014,Laptop Motherboard Repair,2/1/2023,2/10/2023,300,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,9,1,5,,
+7015,Hard Drive Repair,3/10/2023,3/20/2023,150,Completed,Antalya,Antalya,Turkey,null,null,Repair,null,null,10,1,5,,
+7016,Power Supply Replacement,4/15/2023,4/20/2023,110,Completed,Bursa,Bursa,Turkey,null,null,Repair,null,null,5,1,5,,
+7017,CPU Repair,5/10/2023,5/15/2023,220,Completed,Konya,Konya,Turkey,null,null,Repair,null,null,5,1,5,,
+7018,Graphics Card Repair,6/1/2023,6/10/2023,250,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,9,1,5,,
+7019,Keyboard Repair,7/5/2023,7/15/2023,60,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,10,1,5,,
+7020,Monitor Replacement,8/1/2023,8/10/2023,220,Completed,Ankara,Ankara,Turkey,null,null,Repair,null,null,9,1,5,,
+7021,SSD Repair,9/10/2023,9/15/2023,180,Completed,Antalya,Antalya,Turkey,null,null,Repair,null,null,5,1,5,,
+7022,Laptop Battery Replacement,10/5/2023,10/15/2023,80,Completed,Bursa,Bursa,Turkey,null,null,Repair,null,null,10,1,5,,
+7023,Hard Drive Repair,11/1/2023,11/10/2023,140,Completed,Konya,Konya,Turkey,null,null,Repair,null,null,9,1,5,,
+7024,SSD Repair,12/10/2023,12/20/2023,170,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,10,1,5,,
+7025,Laptop Motherboard Repair,1/20/2023,1/30/2023,280,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,10,1,5,,
+7026,Graphics Card Repair,2/15/2023,2/25/2023,250,Completed,Antalya,Antalya,Turkey,null,null,Repair,null,null,10,1,5,,
+7027,CPU Cooling Fan Repair,3/5/2023,3/15/2023,95,Completed,Bursa,Bursa,Turkey,null,null,Repair,null,null,10,1,5,,
+7028,SSD Replacement,4/1/2023,4/10/2023,180,Completed,Konya,Konya,Turkey,null,null,Repair,null,null,9,1,5,,
+7029,Laptop Display Replacement,5/15/2023,5/25/2023,200,Completed,Istanbul,Marmara,Turkey,null,null,Repair,null,null,10,1,5,,
+7030,Hard Drive Repair,6/5/2023,6/15/2023,150,Completed,Izmir,Izmir,Turkey,null,null,Repair,null,null,10,1,5,,
