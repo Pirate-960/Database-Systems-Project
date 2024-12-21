@@ -156,3 +156,119 @@ create table Item (
     -- ===========================================================
     FOREIGN KEY (CompanyID) REFERENCES Company(CompanyID)
 );
+
+-- ===========================================================
+-- EmployeeAppliedService Table
+-- -----------------------------------------------------------
+-- This table tracks which employees applied specific services.
+-- ===========================================================
+
+CREATE TABLE EmployeeAppliedService (
+    EmployeeID INT NOT NULL,                -- ID of the employee who applied the service
+    ServiceID INT NOT NULL,                 -- ID of the applied service
+    
+    -- ===========================================================
+    -- Foreign Key Constraints
+    -- -----------------------------------------------------------
+    -- Links to Employee table to reference the employee.
+    FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID),
+    
+    -- Links to Service table to reference the service.
+    FOREIGN KEY (ServiceID) REFERENCES Service(ServiceID),
+    
+    -- Primary key constraint ensures unique combination of EmployeeID and ServiceID
+    PRIMARY KEY (EmployeeID, ServiceID)
+);
+
+-- ===========================================================
+-- CustomerRequestedService Table
+-- -----------------------------------------------------------
+-- This table tracks which customers requested specific services.
+-- ===========================================================
+
+CREATE TABLE CustomerRequestedService (
+    CustomerID INT NOT NULL,                -- ID of the customer requesting the service
+    ServiceID INT NOT NULL,                 -- ID of the requested service
+    
+    -- ===========================================================
+    -- Foreign Key Constraints
+    -- -----------------------------------------------------------
+    -- Links to Customer table to reference the customer.
+    FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID),
+    
+    -- Links to Service table to reference the service.
+    FOREIGN KEY (ServiceID) REFERENCES Service(ServiceID),
+    
+    -- Primary key constraint ensures unique combination of CustomerID and ServiceID
+    PRIMARY KEY (CustomerID, ServiceID)
+);
+
+-- ===========================================================
+-- CustomerPurchasedItem Table
+-- -----------------------------------------------------------
+-- This table tracks which customers purchased specific items.
+-- ===========================================================
+
+CREATE TABLE CustomerPurchasedItem (
+    CustomerID INT NOT NULL,                -- ID of the customer purchasing the item
+    ItemID INT NOT NULL,                    -- ID of the purchased item
+    
+    -- ===========================================================
+    -- Foreign Key Constraints
+    -- -----------------------------------------------------------
+    -- Links to Customer table to reference the customer.
+    FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID),
+    
+    -- Links to Item table to reference the item.
+    FOREIGN KEY (ItemID) REFERENCES Item(ItemID),
+    
+    -- Primary key constraint ensures unique combination of CustomerID and ItemID
+    PRIMARY KEY (CustomerID, ItemID)
+);
+
+-- ===========================================================
+-- ServiceUsedItem Table
+-- -----------------------------------------------------------
+-- This table tracks which items were used for specific services.
+-- ===========================================================
+
+CREATE TABLE ServiceUsedItem (
+    ItemID INT NOT NULL,                    -- ID of the item used in the service
+    ServiceID INT NOT NULL,                 -- ID of the service where the item was used
+    
+    -- ===========================================================
+    -- Foreign Key Constraints
+    -- -----------------------------------------------------------
+    -- Links to Item table to reference the item.
+    FOREIGN KEY (ItemID) REFERENCES Item(ItemID),
+    
+    -- Links to Service table to reference the service.
+    FOREIGN KEY (ServiceID) REFERENCES Service(ServiceID),
+    
+    -- Primary key constraint ensures unique combination of ItemID and ServiceID
+    PRIMARY KEY (ItemID, ServiceID)
+);
+
+-- ===========================================================
+-- EmployeeSoldItem Table
+-- -----------------------------------------------------------
+-- This table tracks which employees sold specific items.
+-- ===========================================================
+
+CREATE TABLE EmployeeSoldItem (
+    EmployeeID INT NOT NULL,                -- ID of the employee who sold the item
+    ItemID INT NOT NULL,                    -- ID of the sold item
+    
+    -- ===========================================================
+    -- Foreign Key Constraints
+    -- -----------------------------------------------------------
+    -- Links to Employee table to reference the employee.
+    FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID),
+    
+    -- Links to Item table to reference the item.
+    FOREIGN KEY (ItemID) REFERENCES Item(ItemID),
+    
+    -- Primary key constraint ensures unique combination of EmployeeID and ItemID
+    PRIMARY KEY (EmployeeID, ItemID)
+);
+
