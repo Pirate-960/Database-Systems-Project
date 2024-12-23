@@ -1,0 +1,1 @@
+INSERT INTO Company (CompanyID, CompanyName, TradeNumber, Street, City, State, Country) VALUES ('1', 'Ataşehir Bilişim LTD', '991282728', 'MOR SÜMBÜL SK.', 'ISTANBUL', 'ATASEHIR', 'Türkiye');

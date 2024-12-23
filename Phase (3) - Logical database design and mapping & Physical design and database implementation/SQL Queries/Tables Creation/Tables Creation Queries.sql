@@ -1,3 +1,5 @@
+-- Database: Database-001
+use [Database-001]
 -- ===========================================================
 -- Company Table
 -- -----------------------------------------------------------
@@ -47,11 +49,26 @@ CREATE TABLE Employee (
     
     Position VARCHAR(50) NOT NULL,          -- Job position of the employee (cannot be null)
     HireDate DATE NOT NULL,                 -- Date the employee was hired (cannot be null)
-    Salary INT NOT NULL                     -- Salary of the employee (cannot be null)
+    Salary INT NOT NULL,                    -- Salary of the employee (cannot be null)
+    DepartmentNo INT NOT NULL,              -- Department number of the employee (cannot be null)
+    CompanyID INT NOT NULL,                 -- ID of the company the employee belongs to (cannot be null)
+
+    -- ===========================================================
+    -- Foreign Key Constraint to Department Table
+    -- -----------------------------------------------------------
+    -- Links to Department table to reference the department the employee belongs to.
+    -- ===========================================================
+    FOREIGN KEY (DepartmentNo) REFERENCES Department(DepartmentNo),
+
+    -- ===========================================================
+    -- Foreign Key Constraint to Company Table
+    -- -----------------------------------------------------------
+    -- Links to Company table to reference the company the employee belongs to.
+    FOREIGN KEY (CompanyID) REFERENCES Company(CompanyID)
 );
 
 -- ===========================================================
--- EmployeeSkill Table
+-- EmployeeSkill Table (Relation for Multivalued Attribute)
 -- -----------------------------------------------------------
 -- This table stores the relationship between employees and 
 -- the skills they possess, linking the Employee and Skill tables.
@@ -59,7 +76,7 @@ CREATE TABLE Employee (
 
 CREATE TABLE EmployeeSkill (
     EmployeeID INT NOT NULL,                -- ID of the employee (cannot be null)
-    SkillID INT NOT NULL,                   -- ID of the skill (cannot be null)
+    Skill VARCHAR(50) NOT NULL,             -- Name of the skill (cannot be null)
     
     -- ===========================================================
     -- Foreign Key Constraints
@@ -67,12 +84,35 @@ CREATE TABLE EmployeeSkill (
     -- Links to Employee table to reference the employee with the skill.
     FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID),
     
-    -- Links to Skill table to reference the specific skill.
-    FOREIGN KEY (SkillID) REFERENCES Skill(SkillID),
-    
     -- Primary key constraint to ensure each combination of employee and skill is unique
-    PRIMARY KEY (EmployeeID, SkillID)
+    PRIMARY KEY (EmployeeID, Skill)
 );
+
+-- ===========================================================
+-- Department Table
+-- -----------------------------------------------------------
+-- This table stores information about departments within a
+-- company, including department details and the company they
+-- belong to.
+-- ===========================================================
+
+CREATE TABLE Department (
+    DepartmentNo INT PRIMARY KEY,           -- Unique identifier for the department
+    DepartmentName VARCHAR(50) NOT NULL,    -- Name of the department (cannot be null)
+    NoOfEmployees INT NOT NULL,             -- Number of employees in the department (cannot be null)
+    Mission VARCHAR(100) NOT NULL,           -- Mission statement of the department (cannot be null)
+    CompanyID INT NOT NULL,                 -- ID of the company the department belongs to (cannot be null)
+    
+    -- ===========================================================
+    -- Foreign Key Constraint to Company Table
+    -- -----------------------------------------------------------
+    -- Links to Employee table to reference the department manager.
+    -- FOREIGN KEY (ManagerID) REFERENCES Employee(EmployeeID),
+    
+    -- Links to Company table to reference the company the department belongs to.
+    FOREIGN KEY (CompanyID) REFERENCES Company(CompanyID)
+);
+
 
 -- ===========================================================
 -- Service Table
@@ -91,23 +131,35 @@ CREATE TABLE Service (
     City VARCHAR(50) NOT NULL,               -- City where the service is provided (cannot be null)
     State VARCHAR(50) NOT NULL,              -- State where the service is provided (cannot be null)
     Country VARCHAR(50) NOT NULL,            -- Country where the service is provided (cannot be null)
-    ServiceType VARCHAR(50) NOT NULL,        -- Type of the service (cannot be null)
-    
-    -- ===========================================================
-    -- Foreign Key Constraint to Company Table
-    -- -----------------------------------------------------------
-    -- Ensures the service is linked to a valid company.
-    FOREIGN KEY (CompanyID) REFERENCES Company(CompanyID),
-    
+    Cloud VARCHAR(50),                       -- Cloud Service Type
+    Security VARCHAR(50),                    -- Security Service Type
+    Repair VARCHAR(50),                      -- Repair Service Type
+    Network VARCHAR(50),                     -- Network Service Type
+    SoftwareDev VARCHAR(50),                 -- Software Development Service Type
+
     -- ===========================================================
     -- Computed Duration Column
     -- -----------------------------------------------------------
     -- The Duration of the service is computed as the difference 
     -- in days between the EndDate and StartDate.
     -- ===========================================================
-    Duration AS (DATEDIFF(DAY, StartDate, EndDate))
-);
+    Duration AS (DATEDIFF(DAY, StartDate, EndDate)),
 
+    CompanyID INT NOT NULL,                  -- ID of the company providing the service (cannot be null)
+    DepartmentNo INT NOT NULL,               -- Department number associated with the service (cannot be null)
+
+    -- ===========================================================
+    -- Foreign Key Constraint to Company Table
+    -- -----------------------------------------------------------
+    -- Ensures the service is linked to a valid company.
+    FOREIGN KEY (CompanyID) REFERENCES Company(CompanyID),
+
+    -- ===========================================================
+    -- Foreign Key Constraint to Department Table
+    -- -----------------------------------------------------------
+    -- Ensures the service is associated with a valid department.
+    FOREIGN KEY (DepartmentNo) REFERENCES Department(DepartmentNo)
+);
 
 -- ===========================================================
 -- Customer Table
@@ -128,7 +180,7 @@ create table Customer(
     CompanyID int not null,              -- ID of the company associated with the customer (cannot be null)
     
     -- ===========================================================
-    -- Foreign Key Constraint
+    -- Foreign Key Constraint to Company Table
     -- -----------------------------------------------------------
     -- References the Company table to ensure the customer is associated with a valid company.
     -- ===========================================================
@@ -233,20 +285,20 @@ CREATE TABLE CustomerPurchasedItem (
 -- ===========================================================
 
 CREATE TABLE ServiceUsedItem (
-    ItemID INT NOT NULL,                    -- ID of the item used in the service
     ServiceID INT NOT NULL,                 -- ID of the service where the item was used
+    ItemID INT NOT NULL,                    -- ID of the item used in the service
     
     -- ===========================================================
     -- Foreign Key Constraints
     -- -----------------------------------------------------------
-    -- Links to Item table to reference the item.
-    FOREIGN KEY (ItemID) REFERENCES Item(ItemID),
-    
     -- Links to Service table to reference the service.
     FOREIGN KEY (ServiceID) REFERENCES Service(ServiceID),
     
+    -- Links to Item table to reference the item.
+    FOREIGN KEY (ItemID) REFERENCES Item(ItemID),
+    
     -- Primary key constraint ensures unique combination of ItemID and ServiceID
-    PRIMARY KEY (ItemID, ServiceID)
+    PRIMARY KEY (ServiceID, ItemID)
 );
 
 -- ===========================================================
@@ -270,5 +322,131 @@ CREATE TABLE EmployeeSoldItem (
     
     -- Primary key constraint ensures unique combination of EmployeeID and ItemID
     PRIMARY KEY (EmployeeID, ItemID)
+);
+
+-- ===========================================================
+-- CloudSolutionService Table (Subtype of Service)
+-- -----------------------------------------------------------
+CREATE TABLE CloudSolutionService (
+    CloudServiceID INT PRIMARY KEY,          -- Unique identifier for the cloud service
+    CloudServiceProvider VARCHAR(50),        -- Name of the cloud service provider
+    StorageSize INT,                         -- Size of storage in GB
+
+    -- ===========================================================
+    -- Foreign Key Constraint to Service Table
+    -- -----------------------------------------------------------
+    -- Links to Service table to reference the service.
+    FOREIGN KEY (CloudServiceID) REFERENCES Service(ServiceID)
+);
+
+-- ===========================================================
+-- SecuritySystemService Table (Subtype of Service)
+-- -----------------------------------------------------------
+CREATE TABLE SecuritySystemService (
+    SecurityServiceID INT PRIMARY KEY,       -- Unique identifier for the security service
+    SecurityApp VARCHAR(50),                 -- Name of the security application
+    SecurityPackageType VARCHAR(50),         -- Type of the security package
+
+    -- ===========================================================
+    -- Foreign Key Constraint to Service Table
+    -- -----------------------------------------------------------
+    -- Links to Service table to reference the service.
+    FOREIGN KEY (SecurityServiceID) REFERENCES Service(ServiceID)
+);
+
+-- ===========================================================
+-- NetworkManagementService Table (Subtype of Service)
+-- -----------------------------------------------------------
+CREATE TABLE NetworkManagementService (
+    NetworkServiceID INT PRIMARY KEY,        -- Unique identifier for the network service
+    BandwidthUsage INT,                      -- Bandwidth usage in GBs
+    NetworkType VARCHAR(50),                 -- Type of the network
+    NetworkProvider VARCHAR(50),             -- Name of the network provider
+
+    -- ===========================================================
+    -- Foreign Key Constraint to Service Table
+    -- -----------------------------------------------------------
+    -- Links to Service table to reference the service.
+    FOREIGN KEY (NetworkServiceID) REFERENCES Service(ServiceID)
+);
+
+-- ===========================================================
+-- SoftwareDevelopmentService Table (Subtype of Service)
+-- -----------------------------------------------------------
+CREATE TABLE SoftwareDevelopmentService (
+    SoftwareServiceID INT PRIMARY KEY,       -- Unique identifier for the software development service
+    App VARCHAR(50),                         -- Application developed
+    Web VARCHAR(50),                         -- Web project developed
+
+    -- ===========================================================
+    -- Foreign Key Constraint to Service Table
+    -- -----------------------------------------------------------
+    -- Links to Service table to reference the service.
+    FOREIGN KEY (SoftwareServiceID) REFERENCES Service(ServiceID)
+);
+
+-- ===========================================================
+-- SoftwareDevelopmentTool Table (Relation for Multivalued Attribute)
+-- -----------------------------------------------------------
+CREATE TABLE SoftwareDevelopmentTool (
+    SoftwareServiceID INT NOT NULL,          -- Identifier of the software development service
+    DevelopmentTool VARCHAR(50) NOT NULL,    -- Name of the development tool used
+
+    -- ===========================================================
+    -- Foreign Key Constraint to SoftwareDevelopmentService Table
+    -- -----------------------------------------------------------
+    -- Links to SoftwareDevelopmentService table to reference the software development service.
+    FOREIGN KEY (SoftwareServiceID) REFERENCES SoftwareDevelopmentService(SoftwareServiceID),
+
+    -- Primary key constraint ensures unique combination of SoftwareServiceID and DevelopmentTool
+    PRIMARY KEY (SoftwareServiceID, DevelopmentTool)
+);
+
+-- ===========================================================
+-- RepairService Table (Subtype of Service, Supertype for Repair)
+-- -----------------------------------------------------------
+CREATE TABLE RepairService (
+    RepairServiceID INT PRIMARY KEY,         -- Unique identifier for the repair service
+    DeviceName VARCHAR(50),                  -- Name of the device
+    DeviceType VARCHAR(50),                  -- Type of the device
+    DeviceModel VARCHAR(50),                 -- Model of the device
+    Hardware VARCHAR(50),                    -- Hardware specifications
+    Software VARCHAR(50),                    -- Software specifications
+
+    -- ===========================================================
+    -- Foreign Key Constraint to Service Table
+    -- -----------------------------------------------------------
+    -- Links to Service table to reference the service.
+    FOREIGN KEY (RepairServiceID) REFERENCES Service(ServiceID)
+);
+
+-- ===========================================================
+-- HardwareRepairService Table (Subtype of RepairService)
+-- -----------------------------------------------------------
+CREATE TABLE HardwareRepairService (
+    HardwareRepairServiceID INT PRIMARY KEY, -- Unique identifier for the hardware repair service
+    Component VARCHAR(50),                   -- Component being repaired
+    ProductionYear INT,                      -- Year of production of the component
+
+    -- ===========================================================
+    -- Foreign Key Constraint to RepairService Table
+    -- -----------------------------------------------------------
+    -- Links to RepairService table to reference the repair service.
+    FOREIGN KEY (HardwareRepairServiceID) REFERENCES RepairService(RepairServiceID)
+);
+
+-- ===========================================================
+-- SoftwareRepairService Table (Subtype of RepairService)
+-- -----------------------------------------------------------
+CREATE TABLE SoftwareRepairService (
+    SoftwareRepairServiceID INT PRIMARY KEY, -- Unique identifier for the software repair service
+    SoftwareType VARCHAR(50),                -- Type of software being repaired
+    SoftwareVersion VARCHAR(50),             -- Version of the software
+
+    -- ===========================================================
+    -- Foreign Key Constraint to RepairService Table
+    -- -----------------------------------------------------------
+    -- Links to RepairService table to reference the repair service.
+    FOREIGN KEY (SoftwareRepairServiceID) REFERENCES RepairService(RepairServiceID)
 );
 
