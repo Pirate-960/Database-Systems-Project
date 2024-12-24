@@ -330,7 +330,7 @@ CREATE TABLE EmployeeSoldItem (
 CREATE TABLE CloudSolutionService (
     CloudServiceID INT PRIMARY KEY,          -- Unique identifier for the cloud service
     CloudServiceProvider VARCHAR(50),        -- Name of the cloud service provider
-    StorageSize INT,                         -- Size of storage in GB
+    StorageSize VARCHAR(50),                 -- Size of storage in GB
 
     -- ===========================================================
     -- Foreign Key Constraint to Service Table
@@ -359,7 +359,7 @@ CREATE TABLE SecuritySystemService (
 -- -----------------------------------------------------------
 CREATE TABLE NetworkManagementService (
     NetworkServiceID INT PRIMARY KEY,        -- Unique identifier for the network service
-    BandwidthUsage INT,                      -- Bandwidth usage in GBs
+    BandwidthUsage VARCHAR(50),              -- Bandwidth usage in GBs
     NetworkType VARCHAR(50),                 -- Type of the network
     NetworkProvider VARCHAR(50),             -- Name of the network provider
 

@@ -44,6 +44,16 @@ EmployeeID,Skill
 38,System Troubleshooting;Technical Support;Windows Administration
 39,NoSQL Databases;MongoDB;Cassandra
 40,Google Cloud Platform;Cloud Computing;DevOps
+41,Big Data;Data Analytics;Hadoop
+42,DevOps;CI/CD;Jenkins
+43,Java;Backend Development;Spring Boot
+44,PHP;Laravel;Web Development
+45,Digital Marketing;SEO;Google Analytics
+46,UX/UI Design;Wireframing;Prototyping
+47,Swift;iOS Development;Xcode
+48,Ruby;Rails;Web Development
+49,Oracle Database;PL/SQL;Database Administration
+50,React.js;JavaScript;Frontend Development
 """
 
 # Read the data into a DataFrame
