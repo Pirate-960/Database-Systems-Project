@@ -1,5 +1,6 @@
 -- Database: Database-001
 use [Database-001]
+go
 -- ===========================================================
 -- Company Table
 -- -----------------------------------------------------------
@@ -57,7 +58,6 @@ CREATE TABLE Employee (
     -- Foreign Key Constraint to Department Table
     -- -----------------------------------------------------------
     -- Links to Department table to reference the department the employee belongs to.
-    -- ===========================================================
     FOREIGN KEY (DepartmentNo) REFERENCES Department(DepartmentNo),
 
     -- ===========================================================
@@ -108,7 +108,10 @@ CREATE TABLE Department (
     -- -----------------------------------------------------------
     -- Links to Employee table to reference the department manager.
     -- FOREIGN KEY (ManagerID) REFERENCES Employee(EmployeeID),
-    
+
+    -- ===========================================================
+    -- Foreign Key Constraint to Company Table
+    -- -----------------------------------------------------------
     -- Links to Company table to reference the company the department belongs to.
     FOREIGN KEY (CompanyID) REFERENCES Company(CompanyID)
 );
@@ -220,11 +223,14 @@ CREATE TABLE EmployeeAppliedService (
     ServiceID INT NOT NULL,                 -- ID of the applied service
     
     -- ===========================================================
-    -- Foreign Key Constraints
+    -- Foreign Key Constraint to Employee Table
     -- -----------------------------------------------------------
     -- Links to Employee table to reference the employee.
     FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID),
     
+    -- ===========================================================
+    -- Foreign Key Constraint to Service Table
+    -- -----------------------------------------------------------
     -- Links to Service table to reference the service.
     FOREIGN KEY (ServiceID) REFERENCES Service(ServiceID),
     
@@ -243,11 +249,14 @@ CREATE TABLE CustomerRequestedService (
     ServiceID INT NOT NULL,                 -- ID of the requested service
     
     -- ===========================================================
-    -- Foreign Key Constraints
+    -- Foreign Key Constraint to Customer Table
     -- -----------------------------------------------------------
     -- Links to Customer table to reference the customer.
     FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID),
     
+    -- ===========================================================
+    -- Foreign Key Constraint to Service Table
+    -- -----------------------------------------------------------
     -- Links to Service table to reference the service.
     FOREIGN KEY (ServiceID) REFERENCES Service(ServiceID),
     
@@ -266,11 +275,14 @@ CREATE TABLE CustomerPurchasedItem (
     ItemID INT NOT NULL,                    -- ID of the purchased item
     
     -- ===========================================================
-    -- Foreign Key Constraints
+    -- Foreign Key Constraint to Customer Table
     -- -----------------------------------------------------------
     -- Links to Customer table to reference the customer.
     FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID),
     
+    -- ===========================================================
+    -- Foreign Key Constraint to Item Table
+    -- -----------------------------------------------------------
     -- Links to Item table to reference the item.
     FOREIGN KEY (ItemID) REFERENCES Item(ItemID),
     
@@ -289,11 +301,14 @@ CREATE TABLE ServiceUsedItem (
     ItemID INT NOT NULL,                    -- ID of the item used in the service
     
     -- ===========================================================
-    -- Foreign Key Constraints
+    -- Foreign Key Constraint to Service Table
     -- -----------------------------------------------------------
     -- Links to Service table to reference the service.
     FOREIGN KEY (ServiceID) REFERENCES Service(ServiceID),
     
+    -- ===========================================================
+    -- Foreign Key Constraint to Item Table
+    -- -----------------------------------------------------------
     -- Links to Item table to reference the item.
     FOREIGN KEY (ItemID) REFERENCES Item(ItemID),
     
@@ -312,11 +327,14 @@ CREATE TABLE EmployeeSoldItem (
     ItemID INT NOT NULL,                    -- ID of the sold item
     
     -- ===========================================================
-    -- Foreign Key Constraints
+    -- Foreign Key Constraint to Employee Table
     -- -----------------------------------------------------------
     -- Links to Employee table to reference the employee.
     FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID),
     
+    -- ===========================================================
+    -- Foreign Key Constraint to Item Table
+    -- -----------------------------------------------------------
     -- Links to Item table to reference the item.
     FOREIGN KEY (ItemID) REFERENCES Item(ItemID),
     
@@ -326,7 +344,7 @@ CREATE TABLE EmployeeSoldItem (
 
 -- ===========================================================
 -- CloudSolutionService Table (Subtype of Service)
--- -----------------------------------------------------------
+-- ===========================================================
 CREATE TABLE CloudSolutionService (
     CloudServiceID INT PRIMARY KEY,          -- Unique identifier for the cloud service
     CloudServiceProvider VARCHAR(50),        -- Name of the cloud service provider
@@ -341,7 +359,7 @@ CREATE TABLE CloudSolutionService (
 
 -- ===========================================================
 -- SecuritySystemService Table (Subtype of Service)
--- -----------------------------------------------------------
+-- ===========================================================
 CREATE TABLE SecuritySystemService (
     SecurityServiceID INT PRIMARY KEY,       -- Unique identifier for the security service
     SecurityApp VARCHAR(50),                 -- Name of the security application
@@ -356,7 +374,7 @@ CREATE TABLE SecuritySystemService (
 
 -- ===========================================================
 -- NetworkManagementService Table (Subtype of Service)
--- -----------------------------------------------------------
+-- ===========================================================
 CREATE TABLE NetworkManagementService (
     NetworkServiceID INT PRIMARY KEY,        -- Unique identifier for the network service
     BandwidthUsage VARCHAR(50),              -- Bandwidth usage in GBs
@@ -372,7 +390,7 @@ CREATE TABLE NetworkManagementService (
 
 -- ===========================================================
 -- SoftwareDevelopmentService Table (Subtype of Service)
--- -----------------------------------------------------------
+-- ===========================================================
 CREATE TABLE SoftwareDevelopmentService (
     SoftwareServiceID INT PRIMARY KEY,       -- Unique identifier for the software development service
     App VARCHAR(50),                         -- Application developed
@@ -387,7 +405,7 @@ CREATE TABLE SoftwareDevelopmentService (
 
 -- ===========================================================
 -- SoftwareDevelopmentTool Table (Relation for Multivalued Attribute)
--- -----------------------------------------------------------
+-- ===========================================================
 CREATE TABLE SoftwareDevelopmentTool (
     SoftwareServiceID INT NOT NULL,          -- Identifier of the software development service
     DevelopmentTool VARCHAR(50) NOT NULL,    -- Name of the development tool used
@@ -404,7 +422,7 @@ CREATE TABLE SoftwareDevelopmentTool (
 
 -- ===========================================================
 -- RepairService Table (Subtype of Service, Supertype for Repair)
--- -----------------------------------------------------------
+-- ===========================================================
 CREATE TABLE RepairService (
     RepairServiceID INT PRIMARY KEY,         -- Unique identifier for the repair service
     DeviceName VARCHAR(50),                  -- Name of the device
@@ -422,7 +440,7 @@ CREATE TABLE RepairService (
 
 -- ===========================================================
 -- HardwareRepairService Table (Subtype of RepairService)
--- -----------------------------------------------------------
+-- ===========================================================
 CREATE TABLE HardwareRepairService (
     HardwareRepairServiceID INT PRIMARY KEY, -- Unique identifier for the hardware repair service
     Component VARCHAR(50),                   -- Component being repaired
@@ -437,7 +455,7 @@ CREATE TABLE HardwareRepairService (
 
 -- ===========================================================
 -- SoftwareRepairService Table (Subtype of RepairService)
--- -----------------------------------------------------------
+-- ===========================================================
 CREATE TABLE SoftwareRepairService (
     SoftwareRepairServiceID INT PRIMARY KEY, -- Unique identifier for the software repair service
     SoftwareType VARCHAR(50),                -- Type of software being repaired

@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO SoftwareRepairService (SoftwareRepairServiceID, SoftwareType, SoftwareVersion) VALUES ('8001', 'Norton Antivirus', '2023');
 INSERT INTO SoftwareRepairService (SoftwareRepairServiceID, SoftwareType, SoftwareVersion) VALUES ('8002', 'Windows 10', 'Windows 10 Pro');
 INSERT INTO SoftwareRepairService (SoftwareRepairServiceID, SoftwareType, SoftwareVersion) VALUES ('8003', 'McAfee Antivirus', '2022');

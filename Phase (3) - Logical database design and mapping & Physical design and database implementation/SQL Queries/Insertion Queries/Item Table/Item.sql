@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO Item (ItemID, ItemName, Quantity, Price, CompanyID) VALUES ('1', 'Laptop', '10', '1200', '1');
 INSERT INTO Item (ItemID, ItemName, Quantity, Price, CompanyID) VALUES ('2', 'Smartphone', '20', '800', '1');
 INSERT INTO Item (ItemID, ItemName, Quantity, Price, CompanyID) VALUES ('3', 'Monitor', '15', '300', '1');

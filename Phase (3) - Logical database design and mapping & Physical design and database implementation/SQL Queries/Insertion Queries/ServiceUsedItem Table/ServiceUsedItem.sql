@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO ServiceUsedItem (ServiceID, ItemID) VALUES ('2001', '1');
 INSERT INTO ServiceUsedItem (ServiceID, ItemID) VALUES ('2001', '2');
 INSERT INTO ServiceUsedItem (ServiceID, ItemID) VALUES ('2001', '3');

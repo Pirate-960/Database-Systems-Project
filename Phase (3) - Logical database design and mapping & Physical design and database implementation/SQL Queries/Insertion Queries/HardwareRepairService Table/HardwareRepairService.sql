@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO HardwareRepairService (HardwareRepairServiceID, Component, ProductionYear) VALUES ('7001', 'Hard Drive', '2019');
 INSERT INTO HardwareRepairService (HardwareRepairServiceID, Component, ProductionYear) VALUES ('7002', 'Keyboard', '2020');
 INSERT INTO HardwareRepairService (HardwareRepairServiceID, Component, ProductionYear) VALUES ('7003', 'Graphics Card', '2021');

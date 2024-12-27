@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO Service (ServiceID, Name, StartDate, EndDate, Price, Status, City, State, Country, Cloud, Security, Repair, Network, SoftwareDev, CompanyID, DepartmentNo) VALUES ('2001', 'Cloud Hosting', '1/1/2023', '1/14/2023', '5000', 'Completed', 'Istanbul', 'Marmara', 'Turkey', 'Cloud', 'nan', 'nan', 'nan', 'nan', '1', '2');
 INSERT INTO Service (ServiceID, Name, StartDate, EndDate, Price, Status, City, State, Country, Cloud, Security, Repair, Network, SoftwareDev, CompanyID, DepartmentNo) VALUES ('2002', 'Cloud Backup Services', '2/1/2023', '2/13/2023', '4500', 'Completed', 'Izmir', 'Izmir', 'Turkey', 'Cloud', 'nan', 'nan', 'nan', 'nan', '1', '2');
 INSERT INTO Service (ServiceID, Name, StartDate, EndDate, Price, Status, City, State, Country, Cloud, Security, Repair, Network, SoftwareDev, CompanyID, DepartmentNo) VALUES ('2003', 'Cloud Storage', '3/1/2023', '3/14/2023', '3500', 'Completed', 'Ankara', 'Ankara', 'Turkey', 'Cloud', 'nan', 'nan', 'nan', 'nan', '1', '2');

@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO Department (DepartmentNo, DepartmentName, NoOfEmployees, Mission, CompanyID) VALUES ('1', 'Administration', '10', 'To oversee daily operations and coordination', '1');
 INSERT INTO Department (DepartmentNo, DepartmentName, NoOfEmployees, Mission, CompanyID) VALUES ('2', 'Cloud Services', '50', 'To provide reliable cloud-based solutions and support', '1');
 INSERT INTO Department (DepartmentNo, DepartmentName, NoOfEmployees, Mission, CompanyID) VALUES ('3', 'Network Management', '40', 'To maintain and optimize network infrastructure', '1');

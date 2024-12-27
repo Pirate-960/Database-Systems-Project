@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO EmployeeSkill (EmployeeID, Skill) VALUES ('1', 'JavaScript');
 INSERT INTO EmployeeSkill (EmployeeID, Skill) VALUES ('1', 'TypeScript');
 INSERT INTO EmployeeSkill (EmployeeID, Skill) VALUES ('1', 'Node.js');

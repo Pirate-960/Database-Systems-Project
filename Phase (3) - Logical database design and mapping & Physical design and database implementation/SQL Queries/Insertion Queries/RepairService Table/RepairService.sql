@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO RepairService (RepairServiceID, DeviceName, DeviceType, DeviceModel, Hardware, Software) VALUES ('4001', 'iPhone', 'Smartphone', 'iPhone 12', 'Hardware', 'nan');
 INSERT INTO RepairService (RepairServiceID, DeviceName, DeviceType, DeviceModel, Hardware, Software) VALUES ('4002', 'MacBook', 'Laptop', 'MacBook Air', 'Hardware', 'nan');
 INSERT INTO RepairService (RepairServiceID, DeviceName, DeviceType, DeviceModel, Hardware, Software) VALUES ('4003', 'Lenovo', 'Laptop', 'ThinkPad X1', 'nan', 'Software');

@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO Employee (EmployeeID, FirstName, LastName, Birthdate, SsnNo, Position, HireDate, Salary, CompanyID, DepartmentNo) VALUES ('1', 'Ali', 'Demir', '4/23/1989', '12345678901', 'Software Developer', '5/1/2017', '60000', '1', '7');
 INSERT INTO Employee (EmployeeID, FirstName, LastName, Birthdate, SsnNo, Position, HireDate, Salary, CompanyID, DepartmentNo) VALUES ('2', 'Ayşe', 'Yıldız', '7/15/1991', '23456789012', 'Data Analyst', '9/12/2016', '55000', '1', '8');
 INSERT INTO Employee (EmployeeID, FirstName, LastName, Birthdate, SsnNo, Position, HireDate, Salary, CompanyID, DepartmentNo) VALUES ('3', 'Murat', 'Çelik', '2/10/1993', '34567890123', 'System Engineer', '1/18/2018', '62000', '1', '3');

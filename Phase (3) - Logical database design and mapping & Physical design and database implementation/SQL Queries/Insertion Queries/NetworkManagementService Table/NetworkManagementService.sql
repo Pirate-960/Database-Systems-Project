@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO NetworkManagementService (NetworkServiceID, BandwidthUsage, NetworkType, NetworkProvider) VALUES ('5001', '500GB', 'Fiber Optic', 'Turk Telekom');
 INSERT INTO NetworkManagementService (NetworkServiceID, BandwidthUsage, NetworkType, NetworkProvider) VALUES ('5002', '100GB', 'Wi-Fi', 'Superonline');
 INSERT INTO NetworkManagementService (NetworkServiceID, BandwidthUsage, NetworkType, NetworkProvider) VALUES ('5003', '300GB', 'Wi-Fi', 'TTNET');

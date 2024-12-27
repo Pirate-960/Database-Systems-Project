@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO Customer (CustomerID, CustomerName, Email, TelephoneNo, Street, City, State, Country, CompanyID) VALUES ('1', 'Ahmet Yılmaz', 'ahmet.yilmaz@gmail.com', '+90 532 123 4567', 'Atatürk Bulvarı No:45 D:3', 'Çankaya', 'Ankara', 'Türkiye', '1');
 INSERT INTO Customer (CustomerID, CustomerName, Email, TelephoneNo, Street, City, State, Country, CompanyID) VALUES ('2', 'Ayşe Kaya', 'ayse.kaya@hotmail.com', '+90 532 987 6543', 'Konak Mahallesi', 'İnönü Caddesi No:12', 'İzmir', 'Türkiye', '1');
 INSERT INTO Customer (CustomerID, CustomerName, Email, TelephoneNo, Street, City, State, Country, CompanyID) VALUES ('3', 'Fatma Demir', 'fatma.demir@yahoo.com', '+90 531 456 7890', 'Liman Mahallesi', ' Lara Caddesi No:8', ' Antalya', 'Türkiye', '1');

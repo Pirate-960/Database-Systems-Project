@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO CloudSolutionService (CloudServiceID, CloudServiceProvider, StorageSize) VALUES ('2001', 'Amazon AWS', '500GB');
 INSERT INTO CloudSolutionService (CloudServiceID, CloudServiceProvider, StorageSize) VALUES ('2002', 'Google Cloud', '300GB');
 INSERT INTO CloudSolutionService (CloudServiceID, CloudServiceProvider, StorageSize) VALUES ('2003', 'Microsoft Azure', '1TB');

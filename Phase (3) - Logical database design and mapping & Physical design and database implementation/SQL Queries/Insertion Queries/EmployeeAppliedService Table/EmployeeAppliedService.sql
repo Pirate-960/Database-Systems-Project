@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO EmployeeAppliedService (EmployeeID, ServiceID) VALUES ('1', '2001');
 INSERT INTO EmployeeAppliedService (EmployeeID, ServiceID) VALUES ('1', '2002');
 INSERT INTO EmployeeAppliedService (EmployeeID, ServiceID) VALUES ('1', '2003');

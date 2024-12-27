@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO SecuritySystemService (SecurityServiceID, SecurityApp, SecurityPackageType) VALUES ('3001', 'FireWallPlus', 'Standard');
 INSERT INTO SecuritySystemService (SecurityServiceID, SecurityApp, SecurityPackageType) VALUES ('3002', 'SecureGuard', 'Premium');
 INSERT INTO SecuritySystemService (SecurityServiceID, SecurityApp, SecurityPackageType) VALUES ('3003', 'SafeTrack', 'Standard');

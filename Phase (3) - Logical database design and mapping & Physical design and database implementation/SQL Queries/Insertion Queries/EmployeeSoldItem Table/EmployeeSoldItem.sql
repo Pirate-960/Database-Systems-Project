@@ -1,3 +1,6 @@
+-- Database: Database-001
+use [Database-001]
+go
 INSERT INTO EmployeeSoldItem (EmployeeID, ItemID) VALUES ('1', '1');
 INSERT INTO EmployeeSoldItem (EmployeeID, ItemID) VALUES ('1', '2');
 INSERT INTO EmployeeSoldItem (EmployeeID, ItemID) VALUES ('1', '3');
