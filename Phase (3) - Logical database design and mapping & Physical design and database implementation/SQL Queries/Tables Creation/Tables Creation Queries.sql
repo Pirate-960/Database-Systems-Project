@@ -11,7 +11,7 @@ go
 CREATE TABLE Company (
     CompanyID INT PRIMARY KEY,              -- Unique identifier for the company
     CompanyName VARCHAR(50) NOT NULL,       -- Name of the company (cannot be null)
-    TradeNumber INT NOT NULL,               -- Trade registration number of the company (cannot be null)
+    TradeNumber INT NOT NULL UNIQUE,        -- Trade registration number of the company (cannot be null and must be unique)
     Street VARCHAR(50) NOT NULL,            -- Street address of the company (cannot be null)
     City VARCHAR(50) NOT NULL,              -- City where the company is located (cannot be null)
     State VARCHAR(50) NOT NULL,             -- State where the company is located (cannot be null)
@@ -30,7 +30,7 @@ CREATE TABLE Employee (
     FirstName VARCHAR(50) NOT NULL,         -- First name of the employee (cannot be null)
     LastName VARCHAR(50) NOT NULL,          -- Last name of the employee (cannot be null)
     Birthdate DATE NOT NULL,                -- Date of birth of the employee (cannot be null)
-    SsnNo VARCHAR(50) NOT NULL,             -- Social Security Number (must be unique)
+    SsnNo VARCHAR(50) NOT NULL UNIQUE,             -- Social Security Number (must be unique)
     
     -- ===========================================================
     -- Computed Age Column
@@ -468,3 +468,15 @@ CREATE TABLE SoftwareRepairService (
     FOREIGN KEY (SoftwareRepairServiceID) REFERENCES RepairService(RepairServiceID)
 );
 
+-- ===========================================================
+-- ServiceLog Table
+-- -----------------------------------------------------------
+-- This table stores logs of service additions with timestamps.
+-- ===========================================================
+CREATE TABLE ServiceLog (
+    LogID INT IDENTITY(1,1) PRIMARY KEY,     -- Unique identifier for the log entry
+    ServiceID INT NOT NULL,                  -- ID of the service being logged
+    Action VARCHAR(50) NOT NULL,             -- Action performed (e.g., 'INSERT')
+    LogDate DATETIME DEFAULT GETDATE(),      -- Timestamp of the log entry
+    FOREIGN KEY (ServiceID) REFERENCES Service(ServiceID) -- Ensures valid ServiceID
+);
