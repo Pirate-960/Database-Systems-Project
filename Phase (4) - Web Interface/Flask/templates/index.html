@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database-001 Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="bg-primary text-white text-center py-3">
+            <h1>Database-001 Management</h1>
+        </header>
+        <div class="row">
+            <nav class="col-3 bg-light sidebar py-4">
+                <h4>Navigation</h4>
+                <div class="dropdown mb-4">
+                    <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="tablesDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tables
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="tablesDropdown" id="table-list"></ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="functionsDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        Functions & Tools
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="functionsDropdown" id="procedure-list"></ul>
+                </div>
+            </nav>
+            <main class="col-9 py-4">
+                <div id="main-content" class="p-3">
+                    <h2>Welcome to Database Management</h2>
+                    <p>Select a table or function to begin.</p>
+                </div>
+            </main>
+        </div>
+        <footer class="bg-dark text-white text-center py-2">
+            <p>&copy; 2024 Database Management</p>
+        </footer>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
