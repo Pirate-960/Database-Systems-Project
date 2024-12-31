@@ -62,6 +62,15 @@ def get_views():
     connection.close()
     return jsonify(views)
 
+@app.route('/api/triggers')
+def get_triggers():
+    connection = get_db_connection()
+    cursor = connection.cursor()
+    cursor.execute("SELECT name FROM sys.triggers")
+    triggers = [row[0] for row in cursor.fetchall()]
+    connection.close()
+    return jsonify(triggers)
+
 @app.route('/api/run-procedure', methods=['POST'])
 def run_procedure():
     data = request.json
@@ -83,3 +92,4 @@ def run_procedure():
 
 if __name__ == '__main__':
     app.run(debug=True)
+

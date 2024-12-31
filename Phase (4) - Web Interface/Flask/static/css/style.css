@@ -1,16 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
 .sidebar {
     background-color: #f8f9fa;
     height: 100vh;
@@ -18,24 +5,29 @@ header {
     border-right: 1px solid #ddd;
 }
 
-.sidebar h4 {
-    margin-top: 20px;
+.accordion-button {
+    font-weight: bold;
 }
 
-.sidebar ul {
+.accordion-button i {
+    color: #007bff;
+}
+
+.accordion-body ul {
     list-style: none;
     padding: 0;
 }
 
-.sidebar ul li {
+.accordion-body ul li {
     cursor: pointer;
-    padding: 10px;
+    padding: 5px 10px;
     border: 1px solid #ddd;
     margin-bottom: 5px;
     background-color: white;
+    transition: all 0.3s;
 }
 
-.sidebar ul li:hover {
+.accordion-body ul li:hover {
     background-color: #007bff;
     color: white;
 }
