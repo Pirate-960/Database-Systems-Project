@@ -28,24 +28,24 @@ EmployeeID,FirstName,LastName,Birthdate,SsnNo,Position,HireDate,Salary,CompanyID
 27,Kadir,Uğur,11/23/1990,98701234567,Backend Developer,7/7/2016,63000,1,7
 28,Ebru,Karaman,7/10/1988,19812345678,Technical Writer,2/22/2014,48000,1,1
 29,Tuncay,Öztürk,1/18/1991,20923456789,Blockchain Developer,10/14/2018,69000,1,7
-30,Aylin,Demirtaş,11/22/1993,32034567890,Web Developer,9/30/2017,56000,1,7
-31,Kerem,Kurt,2/26/1995,43145678901,Mobile App Developer,4/25/2019,58000,1,7
-32,Esra,Genç,8/3/1989,54256789012,QA Engineer,12/6/2015,54000,1,10
-33,Feride,Aslan,6/11/1992,78943210987,Data Scientist,3/15/2018,68000,1,8
-34,Selim,Gök,11/22/1987,67832109876,Security Consultant,10/20/2015,65000,1,6
-35,Derya,Yıldırım,9/5/1994,12345098765,Software Tester,6/10/2019,52000,1,10
-36,Orhan,Akın,12/15/1990,23456109876,Project Manager,8/1/2016,72000,1,1
-37,Merve,Şahin,1/24/1989,34567210987,Game Developer,11/20/2017,59000,1,7
-38,Kemal,Güneş,7/19/1988,45678321098,IT Support Technician,12/1/2014,50000,1,9
-39,Berfin,Çelik,3/10/1993,56789432109,Database Architect,5/14/2017,70000,1,8
-40,Tolga,Polat,10/29/1992,67890543210,Cloud Engineer,1/15/2020,63000,1,2
-41,Fikret,Öztürk,8/20/1995,42345678901,Social Media Specialist,4/6/2020,48000,1,12
-42,Cem,Balkan,6/25/1993,53456789012,Web Designer,10/22/2018,53000,1,7
-43,Esra,Berk,10/8/1991,64567890123,Project Coordinator,7/10/2017,52000,1,1
-44,Arda,Aydın,5/17/1989,75678901234,Risk Manager,6/15/2016,68000,1,6
-45,Sefa,Kılıç,12/12/1990,86789012345,Business Intelligence Analyst,3/21/2019,60000,1,8
-46,Serap,Tosun,1/6/1992,97890123456,Operations Analyst,4/17/2018,59000,1,9
-47,Duygu,Ateş,4/13/1988,8901234567,Legal Assistant,9/9/2015,52000,1,5
-48,Burak,Çalışkan,7/22/1993,19012345678,IT Administrator,11/30/2016,60000,1,7
-49,Büşra,Şahin,2/25/1994,20123456789,Data Scientist,5/7/2019,65000,1,8
-50,Orhan,Beyaz,8/9/1989,31234567890,Systems Administrator,7/1/2014,67000,1,3
+30,Aylin,Demirtaş,11/22/1993,31234567891,Web Developer,9/30/2017,56000,1,7
+31,Kerem,Kurt,2/26/1995,42345678902,Mobile App Developer,4/25/2019,58000,1,7
+32,Esra,Genç,8/3/1989,53456789013,QA Engineer,12/6/2015,54000,1,10
+33,Feride,Aslan,6/11/1992,64567890124,Data Scientist,3/15/2018,68000,1,8
+34,Selim,Gök,11/22/1987,75678901235,Security Consultant,10/20/2015,65000,1,6
+35,Derya,Yıldırım,9/5/1994,86789012346,Software Tester,6/10/2019,52000,1,10
+36,Orhan,Akın,12/15/1990,97890123457,Project Manager,8/1/2016,72000,1,1
+37,Merve,Şahin,1/24/1989,8901234568,Game Developer,11/20/2017,59000,1,7
+38,Kemal,Güneş,7/19/1988,19012345679,IT Support Technician,12/1/2014,50000,1,9
+39,Berfin,Çelik,3/10/1993,20123456780,Database Architect,5/14/2017,70000,1,8
+40,Tolga,Polat,10/29/1992,31234567892,Cloud Engineer,1/15/2020,63000,1,2
+41,Fikret,Öztürk,8/20/1995,42345678903,Social Media Specialist,4/6/2020,48000,1,12
+42,Cem,Balkan,6/25/1993,53456789014,Web Designer,10/22/2018,53000,1,7
+43,Esra,Berk,10/8/1991,64567890125,Project Coordinator,7/10/2017,52000,1,1
+44,Arda,Aydın,5/17/1989,75678901236,Risk Manager,6/15/2016,68000,1,6
+45,Sefa,Kılıç,12/12/1990,86789012347,Business Intelligence Analyst,3/21/2019,60000,1,8
+46,Serap,Tosun,1/6/1992,97890123458,Operations Analyst,4/17/2018,59000,1,9
+47,Duygu,Ateş,4/13/1988,8901234569,Legal Assistant,9/9/2015,52000,1,5
+48,Burak,Çalışkan,7/22/1993,19012345680,IT Administrator,11/30/2016,60000,1,7
+49,Büşra,Şahin,2/25/1994,20123456781,Data Scientist,5/7/2019,65000,1,8
+50,Orhan,Beyaz,8/9/1989,31234567893,Systems Administrator,7/1/2014,67000,1,3

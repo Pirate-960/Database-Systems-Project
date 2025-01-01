@@ -30,7 +30,7 @@ CREATE TABLE Employee (
     FirstName VARCHAR(50) NOT NULL,         -- First name of the employee (cannot be null)
     LastName VARCHAR(50) NOT NULL,          -- Last name of the employee (cannot be null)
     Birthdate DATE NOT NULL,                -- Date of birth of the employee (cannot be null)
-    SsnNo VARCHAR(50) NOT NULL,             -- Social Security Number (must be unique)
+    SsnNo VARCHAR(50) NOT NULL UNIQUE,      -- Social Security Number (must be unique)
     
     -- ===========================================================
     -- Computed Age Column
