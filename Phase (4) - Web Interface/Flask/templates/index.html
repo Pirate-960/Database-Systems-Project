@@ -7,62 +7,159 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="/static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <header class="bg-primary text-white text-center py-3">
-            <h1>Database-001 Management</h1>
+    <div class="container-fluid d-flex flex-column vh-100">
+        <header class="bg-light-gradient text-primary text-center py-4 shadow">
+            <h1><i class="fas fa-database me-2"></i> Database-001 Management</h1>
         </header>
-        <div class="row">
-            <nav class="col-3 bg-light sidebar py-4">
-                <h4>Navigation</h4>
-                <div class="accordion" id="sidebarAccordion">
+
+        <div class="row flex-grow-1">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 bg-white sidebar py-4 px-3 d-flex flex-column shadow-sm">
+                <div class="logo mb-4 text-center">
+                    <i class="fas fa-cloud fa-3x text-primary"></i>
+                    <h3 class="mt-3">DB Portal</h3>
+                </div>
+
+                <!-- Search Box -->
+                <div class="mb-4">
+                    <div class="input-group">
+                        <span class="input-group-text bg-light">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <input type="text" class="form-control" id="searchBox" placeholder="Search...">
+                    </div>
+                </div>
+
+                <!-- Main Navigation -->
+                <div class="accordion flex-grow-1" id="sidebarAccordion">
                     <!-- Tables Section -->
-                    <div class="accordion-item">
+                    <div class="accordion-item mb-2">
                         <h2 class="accordion-header" id="headingTables">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTables" aria-expanded="true" aria-controls="collapseTables">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTables">
                                 <i class="fas fa-table me-2"></i>Tables
                             </button>
                         </h2>
-                        <div id="collapseTables" class="accordion-collapse collapse show" aria-labelledby="headingTables" data-bs-parent="#sidebarAccordion">
-                            <div class="accordion-body">
-                                <ul id="table-list" class="list-group"></ul>
+                        <div id="collapseTables" class="accordion-collapse collapse show" data-bs-parent="#sidebarAccordion">
+                            <div class="accordion-body p-0">
+                                <ul id="table-list" class="list-group list-group-flush"></ul>
                             </div>
                         </div>
                     </div>
-                    <!-- Functions & Tools Section -->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFunctions">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFunctions" aria-expanded="false" aria-controls="collapseFunctions">
-                                <i class="fas fa-tools me-2"></i>Functions & Tools
+
+                    <!-- Procedures Section -->
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header" id="headingProcedures">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProcedures">
+                                <i class="fas fa-cogs me-2"></i>Procedures
                             </button>
                         </h2>
-                        <div id="collapseFunctions" class="accordion-collapse collapse" aria-labelledby="headingFunctions" data-bs-parent="#sidebarAccordion">
-                            <div class="accordion-body">
-                                <h6>Procedures</h6>
-                                <ul id="procedure-list" class="list-group mb-3"></ul>
-                                <h6>Views</h6>
-                                <ul id="view-list" class="list-group mb-3"></ul>
-                                <h6>Triggers</h6>
-                                <ul id="trigger-list" class="list-group"></ul>
+                        <div id="collapseProcedures" class="accordion-collapse collapse" data-bs-parent="#sidebarAccordion">
+                            <div class="accordion-body p-0">
+                                <div class="procedure-categories">
+                                    <div class="category mb-3">
+                                        <h6 class="px-3 pt-2">Create/Insert</h6>
+                                        <ul id="insert-procedure-list" class="list-group list-group-flush"></ul>
+                                    </div>
+                                    <div class="category mb-3">
+                                        <h6 class="px-3">Read/Get</h6>
+                                        <ul id="get-procedure-list" class="list-group list-group-flush"></ul>
+                                    </div>
+                                    <div class="category mb-3">
+                                        <h6 class="px-3">Update</h6>
+                                        <ul id="update-procedure-list" class="list-group list-group-flush"></ul>
+                                    </div>
+                                    <div class="category mb-3">
+                                        <h6 class="px-3">Delete</h6>
+                                        <ul id="delete-procedure-list" class="list-group list-group-flush"></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Views Section -->
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header" id="headingViews">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseViews">
+                                <i class="fas fa-eye me-2"></i>Views
+                            </button>
+                        </h2>
+                        <div id="collapseViews" class="accordion-collapse collapse" data-bs-parent="#sidebarAccordion">
+                            <div class="accordion-body p-0">
+                                <ul id="view-list" class="list-group list-group-flush"></ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </nav>
-            <main class="col-9 py-4">
-                <div id="main-content" class="p-3">
-                    <h2>Welcome to Database Management</h2>
-                    <p>Select a table or function to begin.</p>
+
+            <!-- Main Content -->
+            <main class="col-md-9 col-lg-10 py-4 px-4 bg-light">
+                <div id="main-content" class="p-4 bg-white rounded shadow">
+                    <div class="welcome-screen text-center">
+                        <i class="fas fa-database fa-4x text-primary mb-4"></i>
+                        <h2>Welcome to DB Portal</h2>
+                        <p class="text-muted">Select an item from the sidebar to begin managing your database.</p>
+                    </div>
                 </div>
             </main>
         </div>
-        <footer class="bg-dark text-white text-center py-2">
-            <p>&copy; 2024 Database Management</p>
-        </footer>
     </div>
+
+    <!-- Procedure Execution Modal -->
+    <div class="modal fade" id="procedureModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Execute Procedure</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="procedure-info mb-4">
+                        <h6 class="text-primary">Procedure Information</h6>
+                        <div id="procedureDescription" class="small text-muted mb-3"></div>
+                        <div class="parameter-list small"></div>
+                    </div>
+                    <form id="procedureForm">
+                        <input type="hidden" id="procedureName">
+                        <div id="parametersContainer"></div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="executeProcedureBtn">Execute</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Modal -->
+    <div class="modal fade" id="resultsModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Procedure Results</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="resultsContainer"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container for Notifications -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="toastContainer"></div>
+    </div>
+
     <script src="/static/js/script.js"></script>
 </body>
 </html>
